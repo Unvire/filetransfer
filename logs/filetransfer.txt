@@ -1,0 +1,211 @@
+2023-10-30 14:47:28,504 INFO [filetransfer.py](161): Logger filetransfer created
+2023-10-30 14:47:28,515 WARNING [filetransfer.py](26): Started logging on station \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\ProcessedFiles\\U62P-ICT-022\processed\630\2023-10-30
+2023-10-30 14:47:45,775 INFO [filetransfer.py](42): File created: U62P-ICT-022\processed\630\2023-10-30\EnelCerm1HW9_296230552037630_301023144721.txt
+2023-10-30 14:47:46,784 INFO [filetransfer.py](65): U62P-ICT-022\processed\630\2023-10-30\EnelCerm1HW9_296230552037630_301023144721.txt
+2023-10-30 14:47:46,859 INFO [filetransfer.py](46): File modified: U62P-ICT-022\processed\630\2023-10-30\EnelCerm1HW9_296230552037630_301023144721.txt
+2023-10-30 14:47:46,859 INFO [filetransfer.py](65): U62P-ICT-022\processed\630\2023-10-30\EnelCerm1HW9_296230552037630_301023144721.txt
+2023-10-30 14:47:46,876 INFO [filetransfer.py](42): File created: U62P-ICT-022\processed\630\2023-10-30\EnelCerm1HW9_296230558017630_301023144721.txt
+2023-10-30 14:47:47,878 INFO [filetransfer.py](65): U62P-ICT-022\processed\630\2023-10-30\EnelCerm1HW9_296230558017630_301023144721.txt
+2023-10-30 14:47:47,944 INFO [filetransfer.py](46): File modified: U62P-ICT-022\processed\630\2023-10-30\EnelCerm1HW9_296230558017630_301023144721.txt
+2023-10-30 14:47:47,944 INFO [filetransfer.py](65): U62P-ICT-022\processed\630\2023-10-30\EnelCerm1HW9_296230558017630_301023144721.txt
+2023-10-30 14:48:15,938 INFO [filetransfer.py](42): File created: U62P-ICT-022\processed\630\2023-10-30\EnelCerm1HW9_296230552047630_301023144801.txt
+2023-10-30 14:48:16,948 INFO [filetransfer.py](65): U62P-ICT-022\processed\630\2023-10-30\EnelCerm1HW9_296230552047630_301023144801.txt
+2023-10-30 14:48:17,011 INFO [filetransfer.py](46): File modified: U62P-ICT-022\processed\630\2023-10-30\EnelCerm1HW9_296230552047630_301023144801.txt
+2023-10-30 14:48:17,011 INFO [filetransfer.py](65): U62P-ICT-022\processed\630\2023-10-30\EnelCerm1HW9_296230552047630_301023144801.txt
+2023-10-30 14:48:17,019 INFO [filetransfer.py](42): File created: U62P-ICT-022\processed\630\2023-10-30\EnelCerm1HW9_296230558037630_301023144801.txt
+2023-10-30 14:48:18,025 INFO [filetransfer.py](65): U62P-ICT-022\processed\630\2023-10-30\EnelCerm1HW9_296230558037630_301023144801.txt
+2023-10-30 14:48:18,096 INFO [filetransfer.py](46): File modified: U62P-ICT-022\processed\630\2023-10-30\EnelCerm1HW9_296230558037630_301023144801.txt
+2023-10-30 14:48:18,096 INFO [filetransfer.py](65): U62P-ICT-022\processed\630\2023-10-30\EnelCerm1HW9_296230558037630_301023144801.txt
+2023-10-30 14:48:28,551 WARNING [filetransfer.py](26): Started logging on station \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\ProcessedFiles\\U62P-ICT-025\processed\716\2023-10-30
+2023-10-30 14:48:34,192 INFO [filetransfer.py](42): File created: U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230701014716_20231030144804.txt
+2023-10-30 14:48:35,199 INFO [filetransfer.py](65): U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230701014716_20231030144804.txt
+2023-10-30 14:48:35,269 INFO [filetransfer.py](46): File modified: U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230701014716_20231030144804.txt
+2023-10-30 14:48:35,269 INFO [filetransfer.py](65): U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230701014716_20231030144804.txt
+2023-10-30 14:48:35,411 INFO [filetransfer.py](42): File created: U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230701024716_20231030144804.txt
+2023-10-30 14:48:36,413 INFO [filetransfer.py](65): U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230701024716_20231030144804.txt
+2023-10-30 14:48:36,428 INFO [filetransfer.py](46): File modified: U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230701024716_20231030144804.txt
+2023-10-30 14:48:36,428 INFO [filetransfer.py](65): U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230701024716_20231030144804.txt
+2023-10-30 14:48:36,438 INFO [filetransfer.py](42): File created: U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230701034716_20231030144804.txt
+2023-10-30 14:48:37,439 INFO [filetransfer.py](65): U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230701034716_20231030144804.txt
+2023-10-30 14:48:37,439 INFO [filetransfer.py](46): File modified: U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230701034716_20231030144804.txt
+2023-10-30 14:48:37,449 INFO [filetransfer.py](65): U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230701034716_20231030144804.txt
+2023-10-30 14:48:37,456 INFO [filetransfer.py](42): File created: U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230701044716_20231030144804.txt
+2023-10-30 14:48:38,458 INFO [filetransfer.py](65): U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230701044716_20231030144804.txt
+2023-10-30 14:48:38,462 INFO [filetransfer.py](46): File modified: U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230701044716_20231030144804.txt
+2023-10-30 14:48:38,462 INFO [filetransfer.py](65): U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230701044716_20231030144804.txt
+2023-10-30 14:48:46,386 INFO [filetransfer.py](42): File created: U62P-ICT-022\processed\630\2023-10-30\EnelCerm1HW9_296230558027630_301023144836.txt
+2023-10-30 14:48:47,391 INFO [filetransfer.py](65): U62P-ICT-022\processed\630\2023-10-30\EnelCerm1HW9_296230558027630_301023144836.txt
+2023-10-30 14:48:47,414 INFO [filetransfer.py](46): File modified: U62P-ICT-022\processed\630\2023-10-30\EnelCerm1HW9_296230558027630_301023144836.txt
+2023-10-30 14:48:47,414 INFO [filetransfer.py](65): U62P-ICT-022\processed\630\2023-10-30\EnelCerm1HW9_296230558027630_301023144836.txt
+2023-10-30 14:48:47,429 INFO [filetransfer.py](42): File created: U62P-ICT-022\processed\630\2023-10-30\EnelCerm1HW9_296230558047630_301023144836.txt
+2023-10-30 14:48:48,432 INFO [filetransfer.py](65): U62P-ICT-022\processed\630\2023-10-30\EnelCerm1HW9_296230558047630_301023144836.txt
+2023-10-30 14:48:48,514 INFO [filetransfer.py](46): File modified: U62P-ICT-022\processed\630\2023-10-30\EnelCerm1HW9_296230558047630_301023144836.txt
+2023-10-30 14:48:48,514 INFO [filetransfer.py](65): U62P-ICT-022\processed\630\2023-10-30\EnelCerm1HW9_296230558047630_301023144836.txt
+2023-10-30 14:49:04,463 INFO [filetransfer.py](42): File created: U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230702014716_20231030144835.txt
+2023-10-30 14:49:05,465 INFO [filetransfer.py](65): U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230702014716_20231030144835.txt
+2023-10-30 14:49:05,621 INFO [filetransfer.py](46): File modified: U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230702014716_20231030144835.txt
+2023-10-30 14:49:05,621 INFO [filetransfer.py](65): U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230702014716_20231030144835.txt
+2023-10-30 14:49:05,698 INFO [filetransfer.py](42): File created: U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230702024716_20231030144835.txt
+2023-10-30 14:49:06,701 INFO [filetransfer.py](65): U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230702024716_20231030144835.txt
+2023-10-30 14:49:06,745 INFO [filetransfer.py](46): File modified: U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230702024716_20231030144835.txt
+2023-10-30 14:49:06,754 INFO [filetransfer.py](65): U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230702024716_20231030144835.txt
+2023-10-30 14:49:06,758 INFO [filetransfer.py](42): File created: U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230702034716_20231030144835.txt
+2023-10-30 14:49:07,761 INFO [filetransfer.py](65): U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230702034716_20231030144835.txt
+2023-10-30 14:49:07,826 INFO [filetransfer.py](46): File modified: U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230702034716_20231030144835.txt
+2023-10-30 14:49:07,826 INFO [filetransfer.py](65): U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230702034716_20231030144835.txt
+2023-10-30 14:49:07,829 INFO [filetransfer.py](42): File created: U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230702044716_20231030144835.txt
+2023-10-30 14:49:08,834 INFO [filetransfer.py](65): U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230702044716_20231030144835.txt
+2023-10-30 14:49:08,883 INFO [filetransfer.py](46): File modified: U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230702044716_20231030144835.txt
+2023-10-30 14:49:08,883 INFO [filetransfer.py](65): U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230702044716_20231030144835.txt
+2023-10-30 14:49:28,574 WARNING [filetransfer.py](24): Stopped logging on station \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\ProcessedFiles\\U62P-ICT-022\processed\630\2023-10-30
+2023-10-30 14:49:28,576 WARNING [filetransfer.py](24): Stopped logging on station \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\ProcessedFiles\\U62P-ICT-025\processed\716\2023-10-30
+2023-10-30 14:49:58,595 WARNING [filetransfer.py](26): Started logging on station \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\ProcessedFiles\\U62P-ICT-025\processed\716\2023-10-30
+2023-10-30 14:50:04,969 INFO [filetransfer.py](42): File created: U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230704014716_20231030144947.txt
+2023-10-30 14:50:05,973 INFO [filetransfer.py](65): U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230704014716_20231030144947.txt
+2023-10-30 14:50:06,258 INFO [filetransfer.py](46): File modified: U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230704014716_20231030144947.txt
+2023-10-30 14:50:06,258 INFO [filetransfer.py](65): U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230704014716_20231030144947.txt
+2023-10-30 14:50:06,327 INFO [filetransfer.py](42): File created: U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230704024716_20231030144947.txt
+2023-10-30 14:50:07,330 INFO [filetransfer.py](65): U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230704024716_20231030144947.txt
+2023-10-30 14:50:07,412 INFO [filetransfer.py](46): File modified: U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230704024716_20231030144947.txt
+2023-10-30 14:50:07,412 INFO [filetransfer.py](65): U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230704024716_20231030144947.txt
+2023-10-30 14:50:07,416 INFO [filetransfer.py](42): File created: U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230704034716_20231030144947.txt
+2023-10-30 14:50:08,417 INFO [filetransfer.py](65): U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230704034716_20231030144947.txt
+2023-10-30 14:50:08,462 INFO [filetransfer.py](46): File modified: U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230704034716_20231030144947.txt
+2023-10-30 14:50:08,462 INFO [filetransfer.py](65): U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230704034716_20231030144947.txt
+2023-10-30 14:50:08,465 INFO [filetransfer.py](42): File created: U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230704044716_20231030144947.txt
+2023-10-30 14:50:09,469 INFO [filetransfer.py](65): U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230704044716_20231030144947.txt
+2023-10-30 14:50:09,533 INFO [filetransfer.py](46): File modified: U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230704044716_20231030144947.txt
+2023-10-30 14:50:09,533 INFO [filetransfer.py](65): U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230704044716_20231030144947.txt
+2023-10-30 14:50:35,309 INFO [filetransfer.py](42): File created: U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230705014716_20231030145026.txt
+2023-10-30 14:50:36,311 INFO [filetransfer.py](65): U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230705014716_20231030145026.txt
+2023-10-30 14:50:36,396 INFO [filetransfer.py](46): File modified: U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230705014716_20231030145026.txt
+2023-10-30 14:50:36,397 INFO [filetransfer.py](65): U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230705014716_20231030145026.txt
+2023-10-30 14:50:36,536 INFO [filetransfer.py](42): File created: U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230705024716_20231030145026.txt
+2023-10-30 14:50:37,541 INFO [filetransfer.py](65): U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230705024716_20231030145026.txt
+2023-10-30 14:50:37,597 INFO [filetransfer.py](46): File modified: U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230705024716_20231030145026.txt
+2023-10-30 14:50:37,597 INFO [filetransfer.py](65): U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230705024716_20231030145026.txt
+2023-10-30 14:50:37,611 INFO [filetransfer.py](42): File created: U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230705034716_20231030145026.txt
+2023-10-30 14:50:38,613 INFO [filetransfer.py](65): U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230705034716_20231030145026.txt
+2023-10-30 14:50:38,651 INFO [filetransfer.py](46): File modified: U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230705034716_20231030145026.txt
+2023-10-30 14:50:38,651 INFO [filetransfer.py](65): U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230705034716_20231030145026.txt
+2023-10-30 14:50:38,651 INFO [filetransfer.py](42): File created: U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230705044716_20231030145026.txt
+2023-10-30 14:50:39,660 INFO [filetransfer.py](65): U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230705044716_20231030145026.txt
+2023-10-30 14:50:39,704 INFO [filetransfer.py](46): File modified: U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230705044716_20231030145026.txt
+2023-10-30 14:50:39,704 INFO [filetransfer.py](65): U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230705044716_20231030145026.txt
+2023-10-30 14:50:58,630 WARNING [filetransfer.py](26): Started logging on station \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\ProcessedFiles\\U62P-ICT-022\processed\630\2023-10-30
+2023-10-30 14:50:58,630 WARNING [filetransfer.py](24): Stopped logging on station \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\ProcessedFiles\\U62P-ICT-025\processed\716\2023-10-30
+2023-10-30 14:51:47,307 INFO [filetransfer.py](42): File created: U62P-ICT-022\processed\630\2023-10-30\EnelCerm1HW9_296230557037630_301023145108.txt
+2023-10-30 14:51:48,311 INFO [filetransfer.py](65): U62P-ICT-022\processed\630\2023-10-30\EnelCerm1HW9_296230557037630_301023145108.txt
+2023-10-30 14:51:48,335 INFO [filetransfer.py](46): File modified: U62P-ICT-022\processed\630\2023-10-30\EnelCerm1HW9_296230557037630_301023145108.txt
+2023-10-30 14:51:48,335 INFO [filetransfer.py](65): U62P-ICT-022\processed\630\2023-10-30\EnelCerm1HW9_296230557037630_301023145108.txt
+2023-10-30 14:51:48,345 INFO [filetransfer.py](42): File created: U62P-ICT-022\processed\630\2023-10-30\EnelCerm1HW9_296230559017630_301023145108.txt
+2023-10-30 14:51:49,346 INFO [filetransfer.py](65): U62P-ICT-022\processed\630\2023-10-30\EnelCerm1HW9_296230559017630_301023145108.txt
+2023-10-30 14:51:49,370 INFO [filetransfer.py](46): File modified: U62P-ICT-022\processed\630\2023-10-30\EnelCerm1HW9_296230559017630_301023145108.txt
+2023-10-30 14:51:49,370 INFO [filetransfer.py](65): U62P-ICT-022\processed\630\2023-10-30\EnelCerm1HW9_296230559017630_301023145108.txt
+2023-10-30 14:52:18,001 INFO [filetransfer.py](42): File created: U62P-ICT-022\processed\630\2023-10-30\EnelCerm1HW9_296230557047630_301023145206.txt
+2023-10-30 14:52:19,008 INFO [filetransfer.py](65): U62P-ICT-022\processed\630\2023-10-30\EnelCerm1HW9_296230557047630_301023145206.txt
+2023-10-30 14:52:19,083 INFO [filetransfer.py](46): File modified: U62P-ICT-022\processed\630\2023-10-30\EnelCerm1HW9_296230557047630_301023145206.txt
+2023-10-30 14:52:19,083 INFO [filetransfer.py](65): U62P-ICT-022\processed\630\2023-10-30\EnelCerm1HW9_296230557047630_301023145206.txt
+2023-10-30 14:52:19,095 INFO [filetransfer.py](42): File created: U62P-ICT-022\processed\630\2023-10-30\EnelCerm1HW9_296230559027630_301023145206.txt
+2023-10-30 14:52:20,097 INFO [filetransfer.py](65): U62P-ICT-022\processed\630\2023-10-30\EnelCerm1HW9_296230559027630_301023145206.txt
+2023-10-30 14:52:20,114 INFO [filetransfer.py](46): File modified: U62P-ICT-022\processed\630\2023-10-30\EnelCerm1HW9_296230559027630_301023145206.txt
+2023-10-30 14:52:20,114 INFO [filetransfer.py](65): U62P-ICT-022\processed\630\2023-10-30\EnelCerm1HW9_296230559027630_301023145206.txt
+2023-10-30 14:56:24,912 INFO [filetransfer.py](161): Logger filetransfer created
+2023-10-30 14:56:24,922 WARNING [filetransfer.py](26): Started logging on station \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\ProcessedFiles\\U62P-ICT-022\processed\630\2023-10-30
+2023-10-30 14:56:49,079 INFO [filetransfer.py](42): File created: U62P-ICT-022\processed\630\2023-10-30\EnelCerm1HW9_296230278027630_301023145646.txt
+2023-10-30 14:56:50,081 INFO [filetransfer.py](65): U62P-ICT-022\processed\630\2023-10-30\EnelCerm1HW9_296230278027630_301023145646.txt
+2023-10-30 14:56:50,104 INFO [filetransfer.py](46): File modified: U62P-ICT-022\processed\630\2023-10-30\EnelCerm1HW9_296230278027630_301023145646.txt
+2023-10-30 14:56:50,104 INFO [filetransfer.py](65): U62P-ICT-022\processed\630\2023-10-30\EnelCerm1HW9_296230278027630_301023145646.txt
+2023-10-30 14:56:50,114 INFO [filetransfer.py](42): File created: U62P-ICT-022\processed\630\2023-10-30\EnelCerm1HW9_296230278047630_301023145646.txt
+2023-10-30 14:56:51,118 INFO [filetransfer.py](65): U62P-ICT-022\processed\630\2023-10-30\EnelCerm1HW9_296230278047630_301023145646.txt
+2023-10-30 14:56:51,184 INFO [filetransfer.py](46): File modified: U62P-ICT-022\processed\630\2023-10-30\EnelCerm1HW9_296230278047630_301023145646.txt
+2023-10-30 14:56:51,184 INFO [filetransfer.py](65): U62P-ICT-022\processed\630\2023-10-30\EnelCerm1HW9_296230278047630_301023145646.txt
+2023-10-30 14:57:57,198 INFO [filetransfer.py](161): Logger filetransfer created
+2023-10-30 14:57:57,209 WARNING [filetransfer.py](26): Started logging on station \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\ProcessedFiles\\U62P-ICT-022\processed\630\2023-10-30
+2023-10-30 14:58:57,236 WARNING [filetransfer.py](26): Started logging on station \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\ProcessedFiles\\U62P-ICT-025\processed\716\2023-10-30
+2023-10-30 14:59:15,886 INFO [filetransfer.py](42): File created: U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230719014716_20231030145854.txt
+2023-10-30 14:59:16,890 INFO [filetransfer.py](65): U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230719014716_20231030145854.txt
+2023-10-30 14:59:16,974 INFO [filetransfer.py](46): File modified: U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230719014716_20231030145854.txt
+2023-10-30 14:59:16,974 INFO [filetransfer.py](65): U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230719014716_20231030145854.txt
+2023-10-30 14:59:17,124 INFO [filetransfer.py](42): File created: U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230719024716_20231030145854.txt
+2023-10-30 14:59:18,126 INFO [filetransfer.py](65): U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230719024716_20231030145854.txt
+2023-10-30 14:59:18,174 INFO [filetransfer.py](46): File modified: U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230719024716_20231030145854.txt
+2023-10-30 14:59:18,174 INFO [filetransfer.py](65): U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230719024716_20231030145854.txt
+2023-10-30 14:59:18,184 INFO [filetransfer.py](42): File created: U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230719034716_20231030145854.txt
+2023-10-30 14:59:19,188 INFO [filetransfer.py](65): U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230719034716_20231030145854.txt
+2023-10-30 14:59:19,240 INFO [filetransfer.py](46): File modified: U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230719034716_20231030145854.txt
+2023-10-30 14:59:19,250 INFO [filetransfer.py](65): U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230719034716_20231030145854.txt
+2023-10-30 14:59:19,254 INFO [filetransfer.py](42): File created: U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230719044716_20231030145854.txt
+2023-10-30 14:59:20,256 INFO [filetransfer.py](65): U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230719044716_20231030145854.txt
+2023-10-30 14:59:20,292 INFO [filetransfer.py](46): File modified: U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230719044716_20231030145854.txt
+2023-10-30 14:59:20,292 INFO [filetransfer.py](65): U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230719044716_20231030145854.txt
+2023-10-30 15:00:25,829 INFO [filetransfer.py](161): Logger filetransfer created
+2023-10-30 15:00:25,840 WARNING [filetransfer.py](26): Started logging on station \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\ProcessedFiles\\U62P-ICT-022\processed\630\2023-10-30
+2023-10-30 15:00:25,840 WARNING [filetransfer.py](26): Started logging on station \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\ProcessedFiles\\U62P-ICT-025\processed\716\2023-10-30
+2023-10-30 15:00:47,708 INFO [filetransfer.py](42): File created: U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230722014716_20231030150040.txt
+2023-10-30 15:00:48,717 INFO [filetransfer.py](65): U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230722014716_20231030150040.txt
+2023-10-30 15:00:48,882 INFO [filetransfer.py](46): File modified: U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230722014716_20231030150040.txt
+2023-10-30 15:00:48,882 INFO [filetransfer.py](65): U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230722014716_20231030150040.txt
+2023-10-30 15:00:48,952 INFO [filetransfer.py](42): File created: U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230722024716_20231030150040.txt
+2023-10-30 15:00:49,961 INFO [filetransfer.py](65): U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230722024716_20231030150040.txt
+2023-10-30 15:00:50,019 INFO [filetransfer.py](46): File modified: U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230722024716_20231030150040.txt
+2023-10-30 15:00:50,019 INFO [filetransfer.py](65): U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230722024716_20231030150040.txt
+2023-10-30 15:00:50,023 INFO [filetransfer.py](42): File created: U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230722034716_20231030150040.txt
+2023-10-30 15:00:51,025 INFO [filetransfer.py](65): U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230722034716_20231030150040.txt
+2023-10-30 15:00:51,088 INFO [filetransfer.py](46): File modified: U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230722034716_20231030150040.txt
+2023-10-30 15:00:51,088 INFO [filetransfer.py](65): U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230722034716_20231030150040.txt
+2023-10-30 15:00:51,098 INFO [filetransfer.py](42): File created: U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230722044716_20231030150040.txt
+2023-10-30 15:00:52,098 INFO [filetransfer.py](65): U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230722044716_20231030150040.txt
+2023-10-30 15:00:52,163 INFO [filetransfer.py](46): File modified: U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230722044716_20231030150040.txt
+2023-10-30 15:00:52,163 INFO [filetransfer.py](65): U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230722044716_20231030150040.txt
+2023-10-30 15:04:42,616 INFO [filetransfer.py](168): Logger filetransfer created
+2023-10-30 15:04:42,626 WARNING [filetransfer.py](26): Started logging on station \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\ProcessedFiles\\U62P-ICT-022\processed\630\2023-10-30
+2023-10-30 15:04:42,626 WARNING [filetransfer.py](26): Started logging on station \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\ProcessedFiles\\U62P-ICT-025\processed\716\2023-10-30
+2023-10-30 15:04:49,208 INFO [filetransfer.py](42): File created: U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230724014716_20231030150444.txt
+2023-10-30 15:04:50,211 INFO [filetransfer.py](65): U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230724014716_20231030150444.txt
+2023-10-30 15:04:50,492 INFO [filetransfer.py](46): File modified: U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230724014716_20231030150444.txt
+2023-10-30 15:04:50,492 INFO [filetransfer.py](65): U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230724014716_20231030150444.txt
+2023-10-30 15:04:50,562 INFO [filetransfer.py](42): File created: U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230724024716_20231030150444.txt
+2023-10-30 15:04:51,566 INFO [filetransfer.py](65): U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230724024716_20231030150444.txt
+2023-10-30 15:04:51,640 INFO [filetransfer.py](46): File modified: U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230724024716_20231030150444.txt
+2023-10-30 15:04:51,640 INFO [filetransfer.py](65): U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230724024716_20231030150444.txt
+2023-10-30 15:04:51,640 INFO [filetransfer.py](42): File created: U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230724034716_20231030150444.txt
+2023-10-30 15:04:52,648 INFO [filetransfer.py](65): U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230724034716_20231030150444.txt
+2023-10-30 15:04:52,730 INFO [filetransfer.py](46): File modified: U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230724034716_20231030150444.txt
+2023-10-30 15:04:52,730 INFO [filetransfer.py](65): U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230724034716_20231030150444.txt
+2023-10-30 15:04:52,730 INFO [filetransfer.py](42): File created: U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230724044716_20231030150444.txt
+2023-10-30 15:04:53,738 INFO [filetransfer.py](65): U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230724044716_20231030150444.txt
+2023-10-30 15:04:53,788 INFO [filetransfer.py](46): File modified: U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230724044716_20231030150444.txt
+2023-10-30 15:04:53,788 INFO [filetransfer.py](65): U62P-ICT-025\processed\716\2023-10-30\Gemis2_Reflow_303230724044716_20231030150444.txt
+2023-10-30 15:05:12,642 INFO [filetransfer.py](90): Filetransfer.py stopped
+2023-11-02 11:20:43,980 INFO [filetransfer.py](168): Logger filetransfer created
+2023-11-02 11:20:43,985 ERROR [filetransfer.py](178): Usage: python filetransfer.py <configFile>
+2023-11-02 11:20:50,304 INFO [filetransfer.py](168): Logger filetransfer created
+2023-11-02 11:20:50,305 WARNING [filetransfer.py](26): Started logging on station C:\python programy\2023_10_30 marco's script\observed
+2023-11-02 11:21:22,215 INFO [filetransfer.py](42): File created: observed\dummy.txt
+2023-11-02 11:21:23,217 INFO [filetransfer.py](65): observed\dummy.txt
+2023-11-02 11:21:23,217 INFO [filetransfer.py](46): File modified: observed\dummy.txt
+2023-11-02 11:21:23,220 INFO [filetransfer.py](65): observed\dummy.txt
+2023-11-02 11:22:24,103 INFO [filetransfer.py](168): Logger filetransfer created
+2023-11-02 11:23:25,686 INFO [filetransfer.py](171): Logger filetransfer created
+2023-11-02 11:23:55,710 WARNING [filetransfer.py](26): Started logging on station C:\python programy\2023_10_30 marco's script\observed
+2023-11-02 11:24:25,728 WARNING [filetransfer.py](24): Stopped logging on station C:\python programy\2023_10_30 marco's script\observed
+2023-11-02 11:24:55,745 WARNING [filetransfer.py](26): Started logging on station C:\python programy\2023_10_30 marco's script\observed
+2023-11-02 11:25:47,182 WARNING [filetransfer.py](35): Copy stopped by file filetransfer_stop.txt on station C:\python programy\2023_10_30 marco's script
+2023-11-02 11:25:47,183 WARNING [filetransfer.py](35): Copy stopped by file filetransfer_stop.txt on station C:\python programy\2023_10_30 marco's script
+2023-11-02 11:28:00,950 WARNING [filetransfer.py](35): Copy stopped by file filetransfer_stop.txt on station C:\python programy\2023_10_30 marco's script
+2023-11-02 11:39:56,435 INFO [filetransfer.py](164): Logger filetransfer created
+2023-11-02 11:39:56,435 WARNING [filetransfer.py](24): Started logging on station C:\python programy\2023_10_30 marco's script\observed
+2023-11-02 11:40:19,581 INFO [filetransfer.py](42): File renamed: observed\filetransfer_stop.txt
+2023-11-02 11:40:19,581 INFO [filetransfer.py](58): observed\filetransfer_stop1.txt
+2023-11-02 11:40:56,463 ERROR [filetransfer.py](100): Could not properly read JSON file: Expecting value: line 8 column 14 (char 224)
+2023-11-02 11:44:35,260 INFO [filetransfer.py](165): Logger filetransfer created
+2023-11-02 11:45:05,278 WARNING [filetransfer.py](116): No "enable" key for source:observed. Used false as a value
+2023-11-02 11:45:35,288 WARNING [filetransfer.py](116): No "enable" key for source:observed. Used false as a value
+2023-11-02 11:45:54,620 INFO [filetransfer.py](165): Logger filetransfer created
+2023-11-02 11:45:54,620 WARNING [filetransfer.py](116): No "enable" key for source "observed". Used false as a value
+2023-11-02 14:04:28,396 INFO [filetransfer.py](172): Logger filetransfer created
+2023-11-02 14:04:28,406 WARNING [filetransfer.py](123): No "enable" key for source: "observed". Used false as a value
+2023-11-02 14:04:58,415 WARNING [filetransfer.py](24): Started logging on station C:\python programy\2023_10_30 marco's script\observed
+2023-11-02 14:10:44,158 INFO [filetransfer.py](172): Logger filetransfer created
+2023-11-02 14:10:44,158 WARNING [filetransfer.py](24): Started logging on station C:\python programy\2023_10_30 marco's script\observed

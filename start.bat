@@ -1,0 +1,1 @@
+python filetransfer.py filetransfer.conf
