@@ -13,7 +13,7 @@ class MyHandler(FileSystemEventHandler):
     def __init__(self, sourcePath, commonDestinationPath, baseDestinaton, baseFolderPath):
         self.sourcePath = sourcePath
         self.commonDestinationPath = commonDestinationPath
-        self.desinationPath = baseDestinaton
+        self.baseDesinationPath = baseDestinaton
         self.baseFolderPath = baseFolderPath
         self.enable = False
 
@@ -57,10 +57,14 @@ class MyHandler(FileSystemEventHandler):
             sourceFile = event.src_path
 
         logger.info(self.get_relative_path(sourceFile))
-        commoncommonDestinationPath = os.path.join(self.commoncommonDestinationPath)
+        commonDestinationPath = os.path.join(self.commonDestinationPath)
+        
+        destinationPath = os.path.join(self.baseDesinationPath, self.get_relative_path(sourceFile))
+        os.makedirs(os.path.dirname(destinationPath), 0o777, True)
 
         try:
-            shutil.copy(sourceFile, commoncommonDestinationPath)
+            shutil.copy(sourceFile, commonDestinationPath)
+            shutil.copy(sourceFile, destinationPath)
         except Exception as e:
             print(f"Error copying file: {e}")
 
