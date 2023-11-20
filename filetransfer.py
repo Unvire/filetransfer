@@ -52,17 +52,17 @@ class MyHandler(FileSystemEventHandler):
     # Copy file to destination folder, creating relative paths
     def copy_file(self, event):
         if event.event_type == 'moved':
-            src_file = event.destinationPath
+            sourceFile = event.destinationPath
         else:
-            src_file = event.sourcePath
+            sourceFile = event.sourcePath
 
-        logger.info(self.get_relative_path(src_file))
-        dest_file = os.path.join(self.destinationPath, self.get_relative_path(src_file))
+        logger.info(self.get_relative_path(sourceFile))
+        destinationFile = os.path.join(self.destinationPath)
 
-        os.makedirs(os.path.dirname(dest_file), 0o777, True)
+        os.makedirs(os.path.dirname(destinationFile), 0o777, True)
 
         try:
-            shutil.copyfile(src_file, dest_file)
+            shutil.copyfile(sourceFile, destinationFile)
         except Exception as e:
             print(f"Error copying file: {e}")
 

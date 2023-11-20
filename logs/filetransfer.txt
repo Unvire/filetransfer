@@ -526,3 +526,9 @@
 2023-11-20 14:22:25,870 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423059204C21421303_20231120142150.txt
 2023-11-20 14:22:46,240 WARNING [filetransfer.py](22): Stopped logging on station \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\\MachineFiles\U62P-ICT-017
 2023-11-20 14:22:46,240 WARNING [filetransfer.py](22): Stopped logging on station \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\\ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20
+2023-11-20 14:23:16,261 INFO [filetransfer.py](83): Filetransfer.py stopped
+2023-11-20 14:28:28,678 INFO [filetransfer.py](187): Logger filetransfer created
+2023-11-20 14:28:28,686 WARNING [filetransfer.py](25): Started logging on station \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\\MachineFiles\U62P-ICT-017
+2023-11-20 14:28:28,689 WARNING [filetransfer.py](25): Started logging on station \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\\ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20
+2023-11-20 14:28:28,700 WARNING [filetransfer.py](25): Started logging on station \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\\ProcessedFiles\U62P-ICT-068\processed\30101539\2023-11-20
+2023-11-20 14:28:28,708 WARNING [filetransfer.py](25): Started logging on station \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\\ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20
