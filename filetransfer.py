@@ -10,18 +10,19 @@ from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 
 class MyHandler(FileSystemEventHandler):
-    def __init__(self, src_path, dest_path, src_base):
-        self.src_path = src_path
-        self.dest_path = dest_path
-        self.src_base = src_base
+    def __init__(self, sourcePath, destinationPath, baseFolderPath):
+        self.sourcePath = sourcePath
+        self.destinationPath = destinationPath
+        self.baseFolderPath = baseFolderPath
         self.enable = False
+        print(sourcePath, destinationPath, baseFolderPath)
 
     def enableSet(self, state):
         # setter for enabling logging
         if self.enable and not state:
-            logger.warning(f'Stopped logging on station {self.src_path}')
+            logger.warning(f'Stopped logging on station {self.sourcePath}')
         if not self.enable and state:
-            logger.warning(f'Started logging on station {self.src_path}')
+            logger.warning(f'Started logging on station {self.sourcePath}')
         self.enable = state
 
     def on_any_event(self, event):
@@ -32,31 +33,31 @@ class MyHandler(FileSystemEventHandler):
             return
         
         if event.event_type == 'created':
-            logger.info(f"File created: {self.get_relative_path(event.src_path)}")
+            logger.info(f"File created: {self.get_relative_path(event.sourcePath)}")
             time.sleep(1)
             self.copy_file(event)
         elif event.event_type == 'modified':
-            logger.info(f"File modified: {self.get_relative_path(event.src_path)}")
+            logger.info(f"File modified: {self.get_relative_path(event.sourcePath)}")
             self.copy_file(event)
         elif event.event_type == 'moved':
-            logger.info(f"File renamed: {self.get_relative_path(event.src_path)}")
+            logger.info(f"File renamed: {self.get_relative_path(event.sourcePath)}")
             self.copy_file(event)
         elif event.event_type == 'deleted':
-            logger.info(f"File deleted: {self.get_relative_path(event.src_path)}")
+            logger.info(f"File deleted: {self.get_relative_path(event.sourcePath)}")
 
-    # Get relative path starting from src_base
+    # Get relative path starting from baseFolderPath
     def get_relative_path(self, path):
-        return os.path.relpath(path, self.src_base)
+        return os.path.relpath(path, self.baseFolderPath)
     
     # Copy file to destination folder, creating relative paths
     def copy_file(self, event):
         if event.event_type == 'moved':
-            src_file = event.dest_path
+            src_file = event.destinationPath
         else:
-            src_file = event.src_path
+            src_file = event.sourcePath
 
         logger.info(self.get_relative_path(src_file))
-        dest_file = os.path.join(self.dest_path, self.get_relative_path(src_file))
+        dest_file = os.path.join(self.destinationPath, self.get_relative_path(src_file))
 
         os.makedirs(os.path.dirname(dest_file), 0o777, True)
 
@@ -138,20 +139,20 @@ class WatchersThread:
                 for station in pathsList:
                     ## check if source path is a folder and if it exists
                     if not os.path.isdir(station):
-                        logger.error(f"Folder {source} not found")
+                        logger.error(f"Folder {station} not found")
                         continue
                     
                     # create MyHandler and delegate to state setter
-                    event_handler = MyHandler(source, dest, baseSource)
-                    event_handler.enableSet(enable)
-                    event_handler_enableSetDelegate = event_handler.enableSet
+                    eventHandler = MyHandler(station, dest, baseSource)
+                    eventHandler.enableSet(enable)
+                    eventHandler_enableSetDelegate = eventHandler.enableSet
 
                     ## add station to dictionary
                     observer = Observer()
-                    self.stations[groupName]['stations'].append((observer, event_handler_enableSetDelegate))     # [observer, pointer to enable logging]
-                    observer.schedule(event_handler, source, recursive=True)
+                    self.stations[groupName]['stations'].append((observer, eventHandler_enableSetDelegate))     # [observer, pointer to enable logging]
+                    observer.schedule(eventHandler, station, recursive=True)
                     observer.start()
-        else:
+            else:
                 # unpack observer and refernece to setter of MyHandler
                 stations = self.stations[groupName]['stations']
                 for _, MyHandlerEnableDelegate in stations:
@@ -192,11 +193,11 @@ if __name__ == '__main__':
     logger = getLogger()
 
     # Check parameters
-    if len(sys.argv) != 2:
-        logger.error("Usage: python filetransfer.py <configFile>")
-        sys.exit(1)        
-    configFile = sys.argv[1]
-    #configFile = 'filetransfer.conf'
+    #if len(sys.argv) != 2:
+    #    logger.error("Usage: python filetransfer.py <configFile>")
+    #    sys.exit(1)        
+    #configFile = sys.argv[1]
+    configFile = 'filetransfer.conf'
 
     thread = WatchersThread(configFile)
     thread.start()
