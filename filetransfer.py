@@ -15,7 +15,6 @@ class MyHandler(FileSystemEventHandler):
         self.destinationPath = destinationPath
         self.baseFolderPath = baseFolderPath
         self.enable = False
-        print(sourcePath, destinationPath, baseFolderPath)
 
     def enableSet(self, state):
         # setter for enabling logging
@@ -33,17 +32,17 @@ class MyHandler(FileSystemEventHandler):
             return
         
         if event.event_type == 'created':
-            logger.info(f"File created: {self.get_relative_path(event.sourcePath)}")
+            logger.info(f"File created: {self.get_relative_path(event.src_path)}")
             time.sleep(1)
             self.copy_file(event)
         elif event.event_type == 'modified':
-            logger.info(f"File modified: {self.get_relative_path(event.sourcePath)}")
+            logger.info(f"File modified: {self.get_relative_path(event.src_path)}")
             self.copy_file(event)
         elif event.event_type == 'moved':
-            logger.info(f"File renamed: {self.get_relative_path(event.sourcePath)}")
+            logger.info(f"File renamed: {self.get_relative_path(event.src_path)}")
             self.copy_file(event)
         elif event.event_type == 'deleted':
-            logger.info(f"File deleted: {self.get_relative_path(event.sourcePath)}")
+            logger.info(f"File deleted: {self.get_relative_path(event.src_path)}")
 
     # Get relative path starting from baseFolderPath
     def get_relative_path(self, path):
@@ -52,17 +51,15 @@ class MyHandler(FileSystemEventHandler):
     # Copy file to destination folder, creating relative paths
     def copy_file(self, event):
         if event.event_type == 'moved':
-            sourceFile = event.destinationPath
+            sourceFile = event.dest_path
         else:
-            sourceFile = event.sourcePath
+            sourceFile = event.src_path
 
         logger.info(self.get_relative_path(sourceFile))
-        destinationFile = os.path.join(self.destinationPath)
-
-        os.makedirs(os.path.dirname(destinationFile), 0o777, True)
+        destinationPath = os.path.join(self.destinationPath)
 
         try:
-            shutil.copyfile(sourceFile, destinationFile)
+            shutil.copy(sourceFile, destinationPath)
         except Exception as e:
             print(f"Error copying file: {e}")
 

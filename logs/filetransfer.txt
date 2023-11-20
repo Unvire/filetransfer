@@ -532,3 +532,322 @@
 2023-11-20 14:28:28,689 WARNING [filetransfer.py](25): Started logging on station \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\\ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20
 2023-11-20 14:28:28,700 WARNING [filetransfer.py](25): Started logging on station \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\\ProcessedFiles\U62P-ICT-068\processed\30101539\2023-11-20
 2023-11-20 14:28:28,708 WARNING [filetransfer.py](25): Started logging on station \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\\ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20
+2023-11-20 14:35:25,008 INFO [filetransfer.py](84): Filetransfer.py stopped
+2023-11-20 14:35:35,858 INFO [filetransfer.py](191): Logger filetransfer created
+2023-11-20 14:35:35,874 WARNING [filetransfer.py](25): Started logging on station \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\\MachineFiles\U62P-ICT-017
+2023-11-20 14:35:35,874 WARNING [filetransfer.py](25): Started logging on station \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\\ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20
+2023-11-20 14:35:35,884 WARNING [filetransfer.py](25): Started logging on station \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\\ProcessedFiles\U62P-ICT-068\processed\30101539\2023-11-20
+2023-11-20 14:35:35,892 WARNING [filetransfer.py](25): Started logging on station \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\\ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20
+2023-11-20 14:37:15,276 INFO [filetransfer.py](84): Filetransfer.py stopped
+2023-11-20 14:39:44,286 INFO [filetransfer.py](190): Logger filetransfer created
+2023-11-20 14:39:44,286 WARNING [filetransfer.py](24): Started logging on station \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\\MachineFiles\U62P-ICT-017
+2023-11-20 14:39:44,306 WARNING [filetransfer.py](24): Started logging on station \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\\ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20
+2023-11-20 14:39:44,306 WARNING [filetransfer.py](24): Started logging on station \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\\ProcessedFiles\U62P-ICT-068\processed\30101539\2023-11-20
+2023-11-20 14:39:44,316 WARNING [filetransfer.py](24): Started logging on station \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\\ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20
+2023-11-20 14:39:57,196 INFO [filetransfer.py](35): File created: MachineFiles\U62P-ICT-017\EXTREME_DGT_NullSN_20231120144032.txt
+2023-11-20 14:39:58,199 INFO [filetransfer.py](58): MachineFiles\U62P-ICT-017\EXTREME_DGT_NullSN_20231120144032.txt
+2023-11-20 14:39:58,202 INFO [filetransfer.py](39): File modified: MachineFiles\U62P-ICT-017\EXTREME_DGT_NullSN_20231120144032.txt
+2023-11-20 14:39:58,211 INFO [filetransfer.py](58): MachineFiles\U62P-ICT-017\EXTREME_DGT_NullSN_20231120144032.txt
+2023-11-20 14:39:58,564 INFO [filetransfer.py](35): File created: ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423062001C21421303_20231120143939.txt
+2023-11-20 14:39:59,570 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423062001C21421303_20231120143939.txt
+2023-11-20 14:39:59,574 INFO [filetransfer.py](39): File modified: ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423062001C21421303_20231120143939.txt
+2023-11-20 14:39:59,574 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423062001C21421303_20231120143939.txt
+2023-11-20 14:39:59,584 INFO [filetransfer.py](35): File created: ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423062002C21421303_20231120143939.txt
+2023-11-20 14:40:00,587 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423062002C21421303_20231120143939.txt
+2023-11-20 14:40:00,600 INFO [filetransfer.py](39): File modified: ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423062002C21421303_20231120143939.txt
+2023-11-20 14:40:00,602 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423062002C21421303_20231120143939.txt
+2023-11-20 14:40:00,610 INFO [filetransfer.py](35): File created: ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423062003C21421303_20231120143939.txt
+2023-11-20 14:40:01,611 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423062003C21421303_20231120143939.txt
+2023-11-20 14:40:01,614 INFO [filetransfer.py](39): File modified: ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423062003C21421303_20231120143939.txt
+2023-11-20 14:40:01,624 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423062003C21421303_20231120143939.txt
+2023-11-20 14:40:01,630 INFO [filetransfer.py](35): File created: ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423062004C21421303_20231120143939.txt
+2023-11-20 14:40:02,633 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423062004C21421303_20231120143939.txt
+2023-11-20 14:40:02,635 INFO [filetransfer.py](39): File modified: ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423062004C21421303_20231120143939.txt
+2023-11-20 14:40:02,644 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423062004C21421303_20231120143939.txt
+2023-11-20 14:40:27,223 INFO [filetransfer.py](35): File created: MachineFiles\U62P-ICT-017\EXTREME_DGT_NullSN_20231120144107.txt
+2023-11-20 14:40:28,226 INFO [filetransfer.py](58): MachineFiles\U62P-ICT-017\EXTREME_DGT_NullSN_20231120144107.txt
+2023-11-20 14:40:28,238 INFO [filetransfer.py](39): File modified: MachineFiles\U62P-ICT-017\EXTREME_DGT_NullSN_20231120144107.txt
+2023-11-20 14:40:28,239 INFO [filetransfer.py](58): MachineFiles\U62P-ICT-017\EXTREME_DGT_NullSN_20231120144107.txt
+2023-11-20 14:40:28,842 INFO [filetransfer.py](35): File created: ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423062101C21421303_20231120144017.txt
+2023-11-20 14:40:29,844 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423062101C21421303_20231120144017.txt
+2023-11-20 14:40:29,855 INFO [filetransfer.py](39): File modified: ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423062101C21421303_20231120144017.txt
+2023-11-20 14:40:29,855 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423062101C21421303_20231120144017.txt
+2023-11-20 14:40:29,863 INFO [filetransfer.py](35): File created: ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423062102C21421303_20231120144017.txt
+2023-11-20 14:40:30,867 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423062102C21421303_20231120144017.txt
+2023-11-20 14:40:30,871 INFO [filetransfer.py](39): File modified: ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423062102C21421303_20231120144017.txt
+2023-11-20 14:40:30,879 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423062102C21421303_20231120144017.txt
+2023-11-20 14:40:30,882 INFO [filetransfer.py](35): File created: ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423062103C21421303_20231120144017.txt
+2023-11-20 14:40:31,888 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423062103C21421303_20231120144017.txt
+2023-11-20 14:40:31,898 INFO [filetransfer.py](39): File modified: ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423062103C21421303_20231120144017.txt
+2023-11-20 14:40:31,899 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423062103C21421303_20231120144017.txt
+2023-11-20 14:40:31,901 INFO [filetransfer.py](35): File created: ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423062104C21421303_20231120144017.txt
+2023-11-20 14:40:32,910 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423062104C21421303_20231120144017.txt
+2023-11-20 14:40:32,924 INFO [filetransfer.py](39): File modified: ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423062104C21421303_20231120144017.txt
+2023-11-20 14:40:32,925 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423062104C21421303_20231120144017.txt
+2023-11-20 14:40:44,366 INFO [filetransfer.py](83): Filetransfer.py stopped
+2023-11-20 14:41:10,343 INFO [filetransfer.py](35): File created: MachineFiles\U62P-ICT-017\EXTREME_DGT_NullSN_20231120144141.txt
+2023-11-20 14:41:14,824 INFO [filetransfer.py](190): Logger filetransfer created
+2023-11-20 14:41:14,834 WARNING [filetransfer.py](24): Started logging on station \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\\MachineFiles\U62P-ICT-017
+2023-11-20 14:41:14,846 WARNING [filetransfer.py](24): Started logging on station \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\\ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20
+2023-11-20 14:41:14,846 WARNING [filetransfer.py](24): Started logging on station \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\\ProcessedFiles\U62P-ICT-068\processed\30101539\2023-11-20
+2023-11-20 14:41:14,858 WARNING [filetransfer.py](24): Started logging on station \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\\ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20
+2023-11-20 14:41:27,241 INFO [filetransfer.py](35): File created: MachineFiles\U62P-ICT-017\EXTREME_DGT_NullSN_20231120144203.txt
+2023-11-20 14:41:28,246 INFO [filetransfer.py](58): MachineFiles\U62P-ICT-017\EXTREME_DGT_NullSN_20231120144203.txt
+2023-11-20 14:41:28,254 INFO [filetransfer.py](39): File modified: MachineFiles\U62P-ICT-017\EXTREME_DGT_NullSN_20231120144203.txt
+2023-11-20 14:41:28,260 INFO [filetransfer.py](58): MachineFiles\U62P-ICT-017\EXTREME_DGT_NullSN_20231120144203.txt
+2023-11-20 14:41:29,093 INFO [filetransfer.py](35): File created: ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423062201C21421303_20231120144055.txt
+2023-11-20 14:41:30,096 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423062201C21421303_20231120144055.txt
+2023-11-20 14:41:30,097 INFO [filetransfer.py](39): File modified: ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423062201C21421303_20231120144055.txt
+2023-11-20 14:41:30,097 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423062201C21421303_20231120144055.txt
+2023-11-20 14:41:30,113 INFO [filetransfer.py](35): File created: ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423062202C21421303_20231120144055.txt
+2023-11-20 14:41:31,115 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423062202C21421303_20231120144055.txt
+2023-11-20 14:41:31,128 INFO [filetransfer.py](39): File modified: ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423062202C21421303_20231120144055.txt
+2023-11-20 14:41:31,128 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423062202C21421303_20231120144055.txt
+2023-11-20 14:41:31,134 INFO [filetransfer.py](35): File created: ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423062203C21421303_20231120144055.txt
+2023-11-20 14:41:32,139 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423062203C21421303_20231120144055.txt
+2023-11-20 14:41:32,153 INFO [filetransfer.py](39): File modified: ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423062203C21421303_20231120144055.txt
+2023-11-20 14:41:32,154 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423062203C21421303_20231120144055.txt
+2023-11-20 14:41:32,169 INFO [filetransfer.py](35): File created: ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423062204C21421303_20231120144055.txt
+2023-11-20 14:41:33,170 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423062204C21421303_20231120144055.txt
+2023-11-20 14:41:33,175 INFO [filetransfer.py](39): File modified: ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423062204C21421303_20231120144055.txt
+2023-11-20 14:41:33,175 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423062204C21421303_20231120144055.txt
+2023-11-20 14:41:34,917 INFO [filetransfer.py](83): Filetransfer.py stopped
+2023-11-20 14:41:47,263 INFO [filetransfer.py](35): File created: MachineFiles\U62P-ICT-017\EXTREME_DGT_NullSN_20231120144224.txt
+2023-11-20 14:41:52,180 INFO [filetransfer.py](190): Logger filetransfer created
+2023-11-20 14:41:52,180 ERROR [filetransfer.py](93): Destination folder C:\python programy\2023_10_30 marco's script\Nowy folder not found
+2023-11-20 14:42:13,360 INFO [filetransfer.py](190): Logger filetransfer created
+2023-11-20 14:42:13,373 WARNING [filetransfer.py](24): Started logging on station \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\\MachineFiles\U62P-ICT-017
+2023-11-20 14:42:13,379 WARNING [filetransfer.py](24): Started logging on station \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\\ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20
+2023-11-20 14:42:13,379 WARNING [filetransfer.py](24): Started logging on station \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\\ProcessedFiles\U62P-ICT-068\processed\30101539\2023-11-20
+2023-11-20 14:42:13,390 WARNING [filetransfer.py](24): Started logging on station \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\\ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20
+2023-11-20 14:42:27,281 INFO [filetransfer.py](35): File created: MachineFiles\U62P-ICT-017\EXTREME_DGT_NullSN_20231120144304.txt
+2023-11-20 14:42:28,284 INFO [filetransfer.py](58): MachineFiles\U62P-ICT-017\EXTREME_DGT_NullSN_20231120144304.txt
+2023-11-20 14:42:28,292 INFO [filetransfer.py](39): File modified: MachineFiles\U62P-ICT-017\EXTREME_DGT_NullSN_20231120144304.txt
+2023-11-20 14:42:28,296 INFO [filetransfer.py](58): MachineFiles\U62P-ICT-017\EXTREME_DGT_NullSN_20231120144304.txt
+2023-11-20 14:42:29,482 INFO [filetransfer.py](35): File created: ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423062401C21421303_20231120144214.txt
+2023-11-20 14:42:30,485 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423062401C21421303_20231120144214.txt
+2023-11-20 14:42:30,492 INFO [filetransfer.py](39): File modified: ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423062401C21421303_20231120144214.txt
+2023-11-20 14:42:30,501 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423062401C21421303_20231120144214.txt
+2023-11-20 14:42:30,503 INFO [filetransfer.py](35): File created: ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423062402C21421303_20231120144214.txt
+2023-11-20 14:42:31,511 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423062402C21421303_20231120144214.txt
+2023-11-20 14:42:31,531 INFO [filetransfer.py](39): File modified: ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423062402C21421303_20231120144214.txt
+2023-11-20 14:42:31,533 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423062402C21421303_20231120144214.txt
+2023-11-20 14:42:31,539 INFO [filetransfer.py](35): File created: ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423062403C21421303_20231120144214.txt
+2023-11-20 14:42:32,545 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423062403C21421303_20231120144214.txt
+2023-11-20 14:42:32,555 INFO [filetransfer.py](39): File modified: ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423062403C21421303_20231120144214.txt
+2023-11-20 14:42:32,556 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423062403C21421303_20231120144214.txt
+2023-11-20 14:42:32,557 INFO [filetransfer.py](35): File created: ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423062404C21421303_20231120144214.txt
+2023-11-20 14:42:33,564 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423062404C21421303_20231120144214.txt
+2023-11-20 14:42:33,573 INFO [filetransfer.py](39): File modified: ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423062404C21421303_20231120144214.txt
+2023-11-20 14:42:33,574 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423062404C21421303_20231120144214.txt
+2023-11-20 14:42:47,289 INFO [filetransfer.py](35): File created: MachineFiles\U62P-ICT-017\EXTREME_DGT_NullSN_20231120144323.txt
+2023-11-20 14:42:48,298 INFO [filetransfer.py](58): MachineFiles\U62P-ICT-017\EXTREME_DGT_NullSN_20231120144323.txt
+2023-11-20 14:42:48,312 INFO [filetransfer.py](39): File modified: MachineFiles\U62P-ICT-017\EXTREME_DGT_NullSN_20231120144323.txt
+2023-11-20 14:42:48,312 INFO [filetransfer.py](58): MachineFiles\U62P-ICT-017\EXTREME_DGT_NullSN_20231120144323.txt
+2023-11-20 14:42:48,463 INFO [filetransfer.py](83): Filetransfer.py stopped
+2023-11-20 14:44:08,142 INFO [filetransfer.py](35): File created: ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423008801921418859_20231120144234.txt
+2023-11-20 14:44:08,142 INFO [filetransfer.py](35): File created: MachineFiles\U62P-ICT-017\EXTREME_DGT_NullSN_20231120144405.txt
+2023-11-20 14:44:08,142 INFO [filetransfer.py](35): File created: ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423062501C21421303_20231120144259.txt
+2023-11-20 14:44:11,368 INFO [filetransfer.py](190): Logger filetransfer created
+2023-11-20 14:44:11,368 WARNING [filetransfer.py](24): Started logging on station \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\\MachineFiles\U62P-ICT-017
+2023-11-20 14:44:11,382 WARNING [filetransfer.py](24): Started logging on station \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\\ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20
+2023-11-20 14:44:11,392 WARNING [filetransfer.py](24): Started logging on station \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\\ProcessedFiles\U62P-ICT-068\processed\30101539\2023-11-20
+2023-11-20 14:44:11,399 WARNING [filetransfer.py](24): Started logging on station \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\\ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20
+2023-11-20 14:44:30,553 INFO [filetransfer.py](35): File created: ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423062701C21421303_20231120144418.txt
+2023-11-20 14:44:31,559 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423062701C21421303_20231120144418.txt
+2023-11-20 14:44:31,575 INFO [filetransfer.py](39): File modified: ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423062701C21421303_20231120144418.txt
+2023-11-20 14:44:31,577 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423062701C21421303_20231120144418.txt
+2023-11-20 14:44:31,581 INFO [filetransfer.py](35): File created: ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423062702C21421303_20231120144418.txt
+2023-11-20 14:44:32,586 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423062702C21421303_20231120144418.txt
+2023-11-20 14:44:32,598 INFO [filetransfer.py](39): File modified: ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423062702C21421303_20231120144418.txt
+2023-11-20 14:44:32,600 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423062702C21421303_20231120144418.txt
+2023-11-20 14:44:32,610 INFO [filetransfer.py](35): File created: ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423062703C21421303_20231120144418.txt
+2023-11-20 14:44:33,612 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423062703C21421303_20231120144418.txt
+2023-11-20 14:44:33,634 INFO [filetransfer.py](39): File modified: ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423062703C21421303_20231120144418.txt
+2023-11-20 14:44:33,634 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423062703C21421303_20231120144418.txt
+2023-11-20 14:44:33,634 INFO [filetransfer.py](35): File created: ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423062704C21421303_20231120144418.txt
+2023-11-20 14:44:34,645 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423062704C21421303_20231120144418.txt
+2023-11-20 14:44:34,658 INFO [filetransfer.py](39): File modified: ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423062704C21421303_20231120144418.txt
+2023-11-20 14:44:34,659 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423062704C21421303_20231120144418.txt
+2023-11-20 14:44:37,341 INFO [filetransfer.py](35): File created: MachineFiles\U62P-ICT-017\EXTREME_DGT_NullSN_20231120144514.txt
+2023-11-20 14:44:38,348 INFO [filetransfer.py](58): MachineFiles\U62P-ICT-017\EXTREME_DGT_NullSN_20231120144514.txt
+2023-11-20 14:44:38,352 INFO [filetransfer.py](39): File modified: MachineFiles\U62P-ICT-017\EXTREME_DGT_NullSN_20231120144514.txt
+2023-11-20 14:44:38,363 INFO [filetransfer.py](58): MachineFiles\U62P-ICT-017\EXTREME_DGT_NullSN_20231120144514.txt
+2023-11-20 14:45:01,539 INFO [filetransfer.py](83): Filetransfer.py stopped
+2023-11-20 14:47:18,340 INFO [filetransfer.py](35): File created: MachineFiles\U62P-ICT-017\EXTREME_DGT_NullSN_20231120144538.txt
+2023-11-20 14:47:18,341 INFO [filetransfer.py](35): File created: ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423062801C21421303_20231120144459.txt
+2023-11-20 14:47:22,871 INFO [filetransfer.py](190): Logger filetransfer created
+2023-11-20 14:47:22,872 WARNING [filetransfer.py](24): Started logging on station \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\\MachineFiles\U62P-ICT-017
+2023-11-20 14:47:22,885 WARNING [filetransfer.py](24): Started logging on station \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\\ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20
+2023-11-20 14:47:22,892 WARNING [filetransfer.py](24): Started logging on station \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\\ProcessedFiles\U62P-ICT-068\processed\30101539\2023-11-20
+2023-11-20 14:47:22,892 WARNING [filetransfer.py](24): Started logging on station \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\\ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20
+2023-11-20 14:47:31,993 INFO [filetransfer.py](35): File created: ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423063101C21421303_20231120144708.txt
+2023-11-20 14:47:33,000 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423063101C21421303_20231120144708.txt
+2023-11-20 14:47:33,027 INFO [filetransfer.py](39): File modified: ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423063101C21421303_20231120144708.txt
+2023-11-20 14:47:33,027 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423063101C21421303_20231120144708.txt
+2023-11-20 14:47:33,037 INFO [filetransfer.py](35): File created: ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423063102C21421303_20231120144708.txt
+2023-11-20 14:47:34,043 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423063102C21421303_20231120144708.txt
+2023-11-20 14:47:34,078 INFO [filetransfer.py](39): File modified: ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423063102C21421303_20231120144708.txt
+2023-11-20 14:47:34,079 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423063102C21421303_20231120144708.txt
+2023-11-20 14:47:34,082 INFO [filetransfer.py](35): File created: ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423063103C21421303_20231120144708.txt
+2023-11-20 14:47:35,090 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423063103C21421303_20231120144708.txt
+2023-11-20 14:47:35,118 INFO [filetransfer.py](39): File modified: ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423063103C21421303_20231120144708.txt
+2023-11-20 14:47:35,118 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423063103C21421303_20231120144708.txt
+2023-11-20 14:47:35,128 INFO [filetransfer.py](35): File created: ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423063104C21421303_20231120144708.txt
+2023-11-20 14:47:36,130 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423063104C21421303_20231120144708.txt
+2023-11-20 14:47:36,151 INFO [filetransfer.py](39): File modified: ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423063104C21421303_20231120144708.txt
+2023-11-20 14:47:36,151 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423063104C21421303_20231120144708.txt
+2023-11-20 14:47:37,433 INFO [filetransfer.py](35): File created: MachineFiles\U62P-ICT-017\EXTREME_DGT_NullSN_20231120144809.txt
+2023-11-20 14:47:38,436 INFO [filetransfer.py](58): MachineFiles\U62P-ICT-017\EXTREME_DGT_NullSN_20231120144809.txt
+2023-11-20 14:47:38,472 INFO [filetransfer.py](39): File modified: MachineFiles\U62P-ICT-017\EXTREME_DGT_NullSN_20231120144809.txt
+2023-11-20 14:47:38,472 INFO [filetransfer.py](58): MachineFiles\U62P-ICT-017\EXTREME_DGT_NullSN_20231120144809.txt
+2023-11-20 14:47:57,445 INFO [filetransfer.py](35): File created: MachineFiles\U62P-ICT-017\EXTREME_DGT_NullSN_20231120144832.txt
+2023-11-20 14:47:58,449 INFO [filetransfer.py](58): MachineFiles\U62P-ICT-017\EXTREME_DGT_NullSN_20231120144832.txt
+2023-11-20 14:47:58,479 INFO [filetransfer.py](39): File modified: MachineFiles\U62P-ICT-017\EXTREME_DGT_NullSN_20231120144832.txt
+2023-11-20 14:47:58,480 INFO [filetransfer.py](58): MachineFiles\U62P-ICT-017\EXTREME_DGT_NullSN_20231120144832.txt
+2023-11-20 14:48:27,464 INFO [filetransfer.py](35): File created: MachineFiles\U62P-ICT-017\EXTREME_DGT_NullSN_20231120144902.txt
+2023-11-20 14:48:28,471 INFO [filetransfer.py](58): MachineFiles\U62P-ICT-017\EXTREME_DGT_NullSN_20231120144902.txt
+2023-11-20 14:48:28,499 INFO [filetransfer.py](39): File modified: MachineFiles\U62P-ICT-017\EXTREME_DGT_NullSN_20231120144902.txt
+2023-11-20 14:48:28,499 INFO [filetransfer.py](58): MachineFiles\U62P-ICT-017\EXTREME_DGT_NullSN_20231120144902.txt
+2023-11-20 14:48:33,488 INFO [filetransfer.py](35): File created: ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423063201C21421303_20231120144803.txt
+2023-11-20 14:48:34,495 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423063201C21421303_20231120144803.txt
+2023-11-20 14:48:34,582 INFO [filetransfer.py](39): File modified: ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423063201C21421303_20231120144803.txt
+2023-11-20 14:48:34,583 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423063201C21421303_20231120144803.txt
+2023-11-20 14:48:34,592 INFO [filetransfer.py](35): File created: ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423063202C21421303_20231120144803.txt
+2023-11-20 14:48:35,594 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423063202C21421303_20231120144803.txt
+2023-11-20 14:48:35,620 INFO [filetransfer.py](39): File modified: ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423063202C21421303_20231120144803.txt
+2023-11-20 14:48:35,620 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423063202C21421303_20231120144803.txt
+2023-11-20 14:48:35,637 INFO [filetransfer.py](35): File created: ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423063203C21421303_20231120144803.txt
+2023-11-20 14:48:36,639 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423063203C21421303_20231120144803.txt
+2023-11-20 14:48:36,657 INFO [filetransfer.py](39): File modified: ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423063203C21421303_20231120144803.txt
+2023-11-20 14:48:36,657 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423063203C21421303_20231120144803.txt
+2023-11-20 14:48:36,674 INFO [filetransfer.py](35): File created: ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423063204C21421303_20231120144803.txt
+2023-11-20 14:48:37,682 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423063204C21421303_20231120144803.txt
+2023-11-20 14:48:37,699 INFO [filetransfer.py](39): File modified: ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423063204C21421303_20231120144803.txt
+2023-11-20 14:48:37,699 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423063204C21421303_20231120144803.txt
+2023-11-20 14:48:47,476 INFO [filetransfer.py](35): File created: MachineFiles\U62P-ICT-017\EXTREME_DGT_NullSN_20231120144922.txt
+2023-11-20 14:48:48,141 WARNING [filetransfer.py](22): Stopped logging on station \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\\MachineFiles\U62P-ICT-017
+2023-11-20 14:48:48,141 WARNING [filetransfer.py](22): Stopped logging on station \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\\ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20
+2023-11-20 14:48:48,141 WARNING [filetransfer.py](22): Stopped logging on station \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\\ProcessedFiles\U62P-ICT-068\processed\30101539\2023-11-20
+2023-11-20 14:48:48,151 WARNING [filetransfer.py](22): Stopped logging on station \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\\ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20
+2023-11-20 14:48:48,484 INFO [filetransfer.py](58): MachineFiles\U62P-ICT-017\EXTREME_DGT_NullSN_20231120144922.txt
+2023-11-20 14:49:08,200 WARNING [filetransfer.py](24): Started logging on station \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\\ProcessedFiles\U62P-ICT-068\processed\30101539\2023-11-20
+2023-11-20 14:49:08,200 WARNING [filetransfer.py](24): Started logging on station \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\\ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20
+2023-11-20 14:49:13,276 INFO [filetransfer.py](35): File created: ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009801921418859_20231120144902.txt
+2023-11-20 14:49:14,278 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009801921418859_20231120144902.txt
+2023-11-20 14:49:14,294 INFO [filetransfer.py](39): File modified: ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009801921418859_20231120144902.txt
+2023-11-20 14:49:14,305 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009801921418859_20231120144902.txt
+2023-11-20 14:49:14,311 INFO [filetransfer.py](35): File created: ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009802921418859_20231120144902.txt
+2023-11-20 14:49:15,318 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009802921418859_20231120144902.txt
+2023-11-20 14:49:15,337 INFO [filetransfer.py](39): File modified: ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009802921418859_20231120144902.txt
+2023-11-20 14:49:15,338 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009802921418859_20231120144902.txt
+2023-11-20 14:49:15,345 INFO [filetransfer.py](35): File created: ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009803921418859_20231120144902.txt
+2023-11-20 14:49:16,350 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009803921418859_20231120144902.txt
+2023-11-20 14:49:16,365 INFO [filetransfer.py](39): File modified: ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009803921418859_20231120144902.txt
+2023-11-20 14:49:16,365 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009803921418859_20231120144902.txt
+2023-11-20 14:49:16,380 INFO [filetransfer.py](35): File created: ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009804921418859_20231120144902.txt
+2023-11-20 14:49:17,381 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009804921418859_20231120144902.txt
+2023-11-20 14:49:17,398 INFO [filetransfer.py](39): File modified: ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009804921418859_20231120144902.txt
+2023-11-20 14:49:17,398 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009804921418859_20231120144902.txt
+2023-11-20 14:49:17,410 INFO [filetransfer.py](35): File created: ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009805921418859_20231120144902.txt
+2023-11-20 14:49:18,412 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009805921418859_20231120144902.txt
+2023-11-20 14:49:18,437 INFO [filetransfer.py](39): File modified: ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009805921418859_20231120144902.txt
+2023-11-20 14:49:18,437 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009805921418859_20231120144902.txt
+2023-11-20 14:49:18,453 INFO [filetransfer.py](35): File created: ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009806921418859_20231120144902.txt
+2023-11-20 14:49:19,455 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009806921418859_20231120144902.txt
+2023-11-20 14:49:19,472 INFO [filetransfer.py](39): File modified: ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009806921418859_20231120144902.txt
+2023-11-20 14:49:19,472 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009806921418859_20231120144902.txt
+2023-11-20 14:49:19,482 INFO [filetransfer.py](35): File created: ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009807921418859_20231120144902.txt
+2023-11-20 14:49:20,486 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009807921418859_20231120144902.txt
+2023-11-20 14:49:20,510 INFO [filetransfer.py](39): File modified: ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009807921418859_20231120144902.txt
+2023-11-20 14:49:20,510 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009807921418859_20231120144902.txt
+2023-11-20 14:49:20,526 INFO [filetransfer.py](35): File created: ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009808921418859_20231120144902.txt
+2023-11-20 14:49:21,532 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009808921418859_20231120144902.txt
+2023-11-20 14:49:21,548 INFO [filetransfer.py](39): File modified: ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009808921418859_20231120144902.txt
+2023-11-20 14:49:21,549 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009808921418859_20231120144902.txt
+2023-11-20 14:49:21,559 INFO [filetransfer.py](35): File created: ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009809921418859_20231120144902.txt
+2023-11-20 14:49:22,564 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009809921418859_20231120144902.txt
+2023-11-20 14:49:22,597 INFO [filetransfer.py](39): File modified: ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009809921418859_20231120144902.txt
+2023-11-20 14:49:22,597 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009809921418859_20231120144902.txt
+2023-11-20 14:49:22,613 INFO [filetransfer.py](35): File created: ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009810921418859_20231120144902.txt
+2023-11-20 14:49:23,615 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009810921418859_20231120144902.txt
+2023-11-20 14:49:23,646 INFO [filetransfer.py](39): File modified: ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009810921418859_20231120144902.txt
+2023-11-20 14:49:23,648 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009810921418859_20231120144902.txt
+2023-11-20 14:49:23,656 INFO [filetransfer.py](35): File created: ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009811921418859_20231120144902.txt
+2023-11-20 14:49:24,659 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009811921418859_20231120144902.txt
+2023-11-20 14:49:24,682 INFO [filetransfer.py](39): File modified: ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009811921418859_20231120144902.txt
+2023-11-20 14:49:24,683 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009811921418859_20231120144902.txt
+2023-11-20 14:49:24,693 INFO [filetransfer.py](35): File created: ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009812921418859_20231120144902.txt
+2023-11-20 14:49:25,697 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009812921418859_20231120144902.txt
+2023-11-20 14:49:25,714 INFO [filetransfer.py](39): File modified: ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009812921418859_20231120144902.txt
+2023-11-20 14:49:25,715 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009812921418859_20231120144902.txt
+2023-11-20 14:50:03,371 WARNING [filetransfer.py](24): Started logging on station \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\\MachineFiles\U62P-ICT-017
+2023-11-20 14:50:03,371 WARNING [filetransfer.py](24): Started logging on station \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\\ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20
+2023-11-20 14:50:13,554 INFO [filetransfer.py](35): File created: ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009701921418859_20231120144955.txt
+2023-11-20 14:50:14,557 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009701921418859_20231120144955.txt
+2023-11-20 14:50:14,570 INFO [filetransfer.py](39): File modified: ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009701921418859_20231120144955.txt
+2023-11-20 14:50:14,570 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009701921418859_20231120144955.txt
+2023-11-20 14:50:14,582 INFO [filetransfer.py](35): File created: ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009702921418859_20231120144955.txt
+2023-11-20 14:50:15,589 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009702921418859_20231120144955.txt
+2023-11-20 14:50:15,602 INFO [filetransfer.py](39): File modified: ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009702921418859_20231120144955.txt
+2023-11-20 14:50:15,602 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009702921418859_20231120144955.txt
+2023-11-20 14:50:15,617 INFO [filetransfer.py](35): File created: ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009703921418859_20231120144955.txt
+2023-11-20 14:50:16,619 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009703921418859_20231120144955.txt
+2023-11-20 14:50:16,639 INFO [filetransfer.py](39): File modified: ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009703921418859_20231120144955.txt
+2023-11-20 14:50:16,639 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009703921418859_20231120144955.txt
+2023-11-20 14:50:16,655 INFO [filetransfer.py](35): File created: ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009704921418859_20231120144955.txt
+2023-11-20 14:50:17,665 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009704921418859_20231120144955.txt
+2023-11-20 14:50:17,678 INFO [filetransfer.py](39): File modified: ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009704921418859_20231120144955.txt
+2023-11-20 14:50:17,678 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009704921418859_20231120144955.txt
+2023-11-20 14:50:17,699 INFO [filetransfer.py](35): File created: ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009705921418859_20231120144955.txt
+2023-11-20 14:50:18,701 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009705921418859_20231120144955.txt
+2023-11-20 14:50:18,725 INFO [filetransfer.py](39): File modified: ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009705921418859_20231120144955.txt
+2023-11-20 14:50:18,734 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009705921418859_20231120144955.txt
+2023-11-20 14:50:18,743 INFO [filetransfer.py](35): File created: ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009706921418859_20231120144955.txt
+2023-11-20 14:50:19,753 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009706921418859_20231120144955.txt
+2023-11-20 14:50:19,778 INFO [filetransfer.py](39): File modified: ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009706921418859_20231120144955.txt
+2023-11-20 14:50:19,778 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009706921418859_20231120144955.txt
+2023-11-20 14:50:19,787 INFO [filetransfer.py](35): File created: ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009707921418859_20231120144955.txt
+2023-11-20 14:50:20,792 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009707921418859_20231120144955.txt
+2023-11-20 14:50:20,813 INFO [filetransfer.py](39): File modified: ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009707921418859_20231120144955.txt
+2023-11-20 14:50:20,813 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009707921418859_20231120144955.txt
+2023-11-20 14:50:20,829 INFO [filetransfer.py](35): File created: ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009708921418859_20231120144955.txt
+2023-11-20 14:50:21,837 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009708921418859_20231120144955.txt
+2023-11-20 14:50:21,848 INFO [filetransfer.py](39): File modified: ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009708921418859_20231120144955.txt
+2023-11-20 14:50:21,848 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009708921418859_20231120144955.txt
+2023-11-20 14:50:21,864 INFO [filetransfer.py](35): File created: ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009709921418859_20231120144955.txt
+2023-11-20 14:50:22,866 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009709921418859_20231120144955.txt
+2023-11-20 14:50:22,895 INFO [filetransfer.py](39): File modified: ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009709921418859_20231120144955.txt
+2023-11-20 14:50:22,899 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009709921418859_20231120144955.txt
+2023-11-20 14:50:22,903 INFO [filetransfer.py](35): File created: ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009710921418859_20231120144955.txt
+2023-11-20 14:50:23,914 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009710921418859_20231120144955.txt
+2023-11-20 14:50:23,930 INFO [filetransfer.py](39): File modified: ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009710921418859_20231120144955.txt
+2023-11-20 14:50:23,930 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009710921418859_20231120144955.txt
+2023-11-20 14:50:23,935 INFO [filetransfer.py](35): File created: ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009711921418859_20231120144955.txt
+2023-11-20 14:50:24,942 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009711921418859_20231120144955.txt
+2023-11-20 14:50:24,968 INFO [filetransfer.py](39): File modified: ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009711921418859_20231120144955.txt
+2023-11-20 14:50:24,971 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009711921418859_20231120144955.txt
+2023-11-20 14:50:24,983 INFO [filetransfer.py](35): File created: ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009712921418859_20231120144955.txt
+2023-11-20 14:50:25,985 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009712921418859_20231120144955.txt
+2023-11-20 14:50:25,998 INFO [filetransfer.py](39): File modified: ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009712921418859_20231120144955.txt
+2023-11-20 14:50:25,998 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-044\processed\21418859\2023-11-20\A34_Control_32423009712921418859_20231120144955.txt
+2023-11-20 14:50:27,499 INFO [filetransfer.py](35): File created: MachineFiles\U62P-ICT-017\EXTREME_DGT_NullSN_20231120145102.txt
+2023-11-20 14:50:28,505 INFO [filetransfer.py](58): MachineFiles\U62P-ICT-017\EXTREME_DGT_NullSN_20231120145102.txt
+2023-11-20 14:50:28,535 INFO [filetransfer.py](39): File modified: MachineFiles\U62P-ICT-017\EXTREME_DGT_NullSN_20231120145102.txt
+2023-11-20 14:50:28,544 INFO [filetransfer.py](58): MachineFiles\U62P-ICT-017\EXTREME_DGT_NullSN_20231120145102.txt
+2023-11-20 14:50:35,681 INFO [filetransfer.py](35): File created: ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423063501C21421303_20231120145009.txt
+2023-11-20 14:50:36,690 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423063501C21421303_20231120145009.txt
+2023-11-20 14:50:36,749 INFO [filetransfer.py](39): File modified: ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423063501C21421303_20231120145009.txt
+2023-11-20 14:50:36,749 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423063501C21421303_20231120145009.txt
+2023-11-20 14:50:36,760 INFO [filetransfer.py](35): File created: ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423063502C21421303_20231120145009.txt
+2023-11-20 14:50:37,761 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423063502C21421303_20231120145009.txt
+2023-11-20 14:50:37,783 INFO [filetransfer.py](39): File modified: ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423063502C21421303_20231120145009.txt
+2023-11-20 14:50:37,784 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423063502C21421303_20231120145009.txt
+2023-11-20 14:50:37,795 INFO [filetransfer.py](35): File created: ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423063503C21421303_20231120145009.txt
+2023-11-20 14:50:38,797 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423063503C21421303_20231120145009.txt
+2023-11-20 14:50:38,820 INFO [filetransfer.py](39): File modified: ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423063503C21421303_20231120145009.txt
+2023-11-20 14:50:38,820 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423063503C21421303_20231120145009.txt
+2023-11-20 14:50:38,836 INFO [filetransfer.py](35): File created: ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423063504C21421303_20231120145009.txt
+2023-11-20 14:50:39,844 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423063504C21421303_20231120145009.txt
+2023-11-20 14:50:39,862 INFO [filetransfer.py](39): File modified: ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423063504C21421303_20231120145009.txt
+2023-11-20 14:50:39,862 INFO [filetransfer.py](58): ProcessedFiles\U62P-ICT-047\processed\30417432\2023-11-20\PULSAR_InLine_32423063504C21421303_20231120145009.txt
