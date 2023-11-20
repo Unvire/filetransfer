@@ -132,9 +132,15 @@ class WatchersThread:
             ## create list of paths inside groups
             pathsList = [baseSource + os.sep + stationPath for stationPath in stationsList]
             
-            ## add new station to self.stations dict 
-            if source not in self.stations:
-                if os.path.isdir(source):
+            ## add new station to self.stations dict; check if group was modified
+            if groupName not in self.stations or len(pathsList) != len(self.stations[groupName]['stations']):
+                self.stations[groupName] = {'enable': enable, 'stations':[]}
+                for station in pathsList:
+                    ## check if source path is a folder and if it exists
+                    if not os.path.isdir(station):
+                        logger.error(f"Folder {source} not found")
+                        continue
+                    
                     # create MyHandler and delegate to state setter
                     event_handler = MyHandler(source, dest, baseSource)
                     event_handler.enableSet(enable)
@@ -142,15 +148,14 @@ class WatchersThread:
 
                     ## add station to dictionary
                     observer = Observer()
-                    self.stations[source] = [observer, event_handler_enableSetDelegate]     # [observer, pointer to enable logging]
+                    self.stations[groupName]['stations'].append((observer, event_handler_enableSetDelegate))     # [observer, pointer to enable logging]
                     observer.schedule(event_handler, source, recursive=True)
                     observer.start()
-                else:
-                    logger.error(f"Folder {source} not found")
-            else:
+        else:
                 # unpack observer and refernece to setter of MyHandler
-                observer, MyHandlerEnableDelegate = self.stations[source]
-                MyHandlerEnableDelegate(enable)
+                stations = self.stations[groupName]['stations']
+                for _, MyHandlerEnableDelegate in stations:
+                    MyHandlerEnableDelegate(enable)
            
     def run(self):
         print("Check config file for for new folders")
