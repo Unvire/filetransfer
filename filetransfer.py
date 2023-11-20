@@ -87,6 +87,7 @@ class WatchersThread:
                     dest = config['dest']
                     baseSource = config['baseSource']
                     sourcesList = config['sources']
+                    updateTime = float(config['updateTime'])
 
                     ## check if dest and baseSource exist
                     if not os.path.isdir(dest):
@@ -97,14 +98,17 @@ class WatchersThread:
                         sys.exit(1)
 
         ## handle errors in JSON file
-        except json.decoder.JSONDecodeError as e: ## add here exceptions types
+        except json.decoder.JSONDecodeError as e:
             logger.error(f'Could not properly read JSON file: {e}')
             sys.exit(1)
         except FileNotFoundError:
             logger.error(f'Config file {self.configFile} not found')
             sys.exit(1)
+        except KeyError as e:
+            logger.error(f'Key error in config file: {e}')
+            sys.exit(1)
 
-        return dest, baseSource, sourcesList
+        return dest, baseSource, sourcesList, updateTime
     
     def updateObservers(self, dest, baseSource, sourcesList):
         ## handle each station
@@ -160,9 +164,9 @@ class WatchersThread:
            
     def run(self):
         print("Check config file for for new folders")
-        dest, baseSource, sourcesList = self.reloadConf()
+        dest, baseSource, sourcesList, updateTime = self.reloadConf()
         self.updateObservers(dest, baseSource, sourcesList)
-        self.t = Timer(30.0, self.run) #60
+        self.t = Timer(updateTime, self.run)
         self.t.start()
         
     def start(self):
