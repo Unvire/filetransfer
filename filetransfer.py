@@ -194,11 +194,11 @@ if __name__ == '__main__':
     logger = getLogger()
 
     # Check parameters
-    #if len(sys.argv) != 2:
-    #    logger.error("Usage: python filetransfer.py <configFile>")
-    #    sys.exit(1)        
-    #configFile = sys.argv[1]
-    configFile = 'filetransfer.conf'
+    if len(sys.argv) != 2:
+        logger.error("Usage: python filetransfer.py <configFile>")
+        sys.exit(1)        
+    configFile = sys.argv[1]
+    #configFile = 'filetransfer.conf'
 
     thread = WatchersThread(configFile)
     thread.start()
