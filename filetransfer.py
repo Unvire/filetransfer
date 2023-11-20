@@ -85,7 +85,7 @@ class WatchersThread:
 
                     dest = config['dest']
                     baseSource = config['baseSource']
-                    folders = config['folders']
+                    sourcesList = config['sources']
 
                     ## check if dest and baseSource exist
                     if not os.path.isdir(dest):
@@ -103,25 +103,34 @@ class WatchersThread:
             logger.error(f'Config file {self.configFile} not found')
             sys.exit(1)
 
-        return dest, baseSource, folders
+        return dest, baseSource, sourcesList
     
-    def updateObservers(self, dest, baseSource, folders):
+    def updateObservers(self, dest, baseSource, sourcesList):
         ## handle each station
-        for folder in folders:
+        for i, source in enumerate(sourcesList):
+            # check for name
+            try:
+                groupName = source['name']
+            except KeyError:
+                logger.warning(f'No "name" key in {i} group')
+                continue
+
             # check for source
             try:
-                source = folder['source']
+                stationsList = source['stations']
             except KeyError:
-                logger.warning(f'No "source" key')
+                logger.warning(f'No "stations" key in {i} group')
                 continue
 
             # check for enable state
             try:
-                enable = folder['enable']
+                enable = source['enable']
             except KeyError:
                 enable = False
                 logger.warning(f'No "enable" key for source: "{source}". Used false as a value')
-            source = baseSource + os.sep + source
+            
+            ## create list of paths inside groups
+            pathsList = [baseSource + os.sep + stationPath for stationPath in stationsList]
             
             ## add new station to self.stations dict 
             if source not in self.stations:
@@ -145,8 +154,8 @@ class WatchersThread:
            
     def run(self):
         print("Check config file for for new folders")
-        dest, baseSource, folders = self.reloadConf()
-        self.updateObservers(dest, baseSource, folders)
+        dest, baseSource, sourcesList = self.reloadConf()
+        self.updateObservers(dest, baseSource, sourcesList)
         self.t = Timer(30.0, self.run) #60
         self.t.start()
         
