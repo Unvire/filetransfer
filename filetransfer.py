@@ -10,9 +10,10 @@ from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 
 class MyHandler(FileSystemEventHandler):
-    def __init__(self, sourcePath, destinationPath, baseFolderPath):
+    def __init__(self, sourcePath, commonDestinationPath, baseDestinaton, baseFolderPath):
         self.sourcePath = sourcePath
-        self.destinationPath = destinationPath
+        self.commonDestinationPath = commonDestinationPath
+        self.desinationPath = baseDestinaton
         self.baseFolderPath = baseFolderPath
         self.enable = False
 
@@ -48,18 +49,18 @@ class MyHandler(FileSystemEventHandler):
     def get_relative_path(self, path):
         return os.path.relpath(path, self.baseFolderPath)
     
-    # Copy file to destination folder, creating relative paths
+    # Copy file to commonDestination folder, creating relative paths
     def copy_file(self, event):
         if event.event_type == 'moved':
-            sourceFile = event.dest_path
+            sourceFile = event.commonDest_path
         else:
             sourceFile = event.src_path
 
         logger.info(self.get_relative_path(sourceFile))
-        destinationPath = os.path.join(self.destinationPath)
+        commoncommonDestinationPath = os.path.join(self.commoncommonDestinationPath)
 
         try:
-            shutil.copy(sourceFile, destinationPath)
+            shutil.copy(sourceFile, commoncommonDestinationPath)
         except Exception as e:
             print(f"Error copying file: {e}")
 
@@ -81,18 +82,23 @@ class WatchersThread:
                         logger.info('Filetransfer.py stopped')
                         sys.exit(1)
 
-                    dest = config['dest']
+                    commonDest = config['commonDest']
+                    baseDest = config['baseDest']
                     baseSource = config['baseSource']
                     sourcesList = config['sources']
                     updateTime = float(config['updateTime'])
 
-                    ## check if dest and baseSource exist
-                    if not os.path.isdir(dest):
-                        logger.error(f"Destination folder {dest} not found")
+                    ## check if commonDest and baseSource exist
+                    if not os.path.isdir(commonDest):
+                        logger.error(f"commonDestination folder {commonDest} not found")
+                        sys.exit(1)
+                    if not os.path.isdir(baseDest):
+                        logger.error(f"Base folder {baseDest} not found")
                         sys.exit(1)
                     if not os.path.isdir(baseSource):
                         logger.error(f"Base folder {baseSource} not found")
                         sys.exit(1)
+                    
 
         ## handle errors in JSON file
         except json.decoder.JSONDecodeError as e:
@@ -105,9 +111,9 @@ class WatchersThread:
             logger.error(f'Key error in config file: {e}')
             sys.exit(1)
 
-        return dest, baseSource, sourcesList, updateTime
+        return commonDest, baseDest, baseSource, sourcesList, updateTime
     
-    def updateObservers(self, dest, baseSource, sourcesList):
+    def updateObservers(self, commonDest, baseDest, baseSource, sourcesList):
         ## handle each station
         for i, source in enumerate(sourcesList):
             # check for name
@@ -144,7 +150,7 @@ class WatchersThread:
                         continue
                     
                     # create MyHandler and delegate to state setter
-                    eventHandler = MyHandler(station, dest, baseSource)
+                    eventHandler = MyHandler(station, commonDest, baseDest, baseSource)
                     eventHandler.enableSet(enable)
                     eventHandler_enableSetDelegate = eventHandler.enableSet
 
@@ -161,8 +167,8 @@ class WatchersThread:
            
     def run(self):
         print("Check config file for for new folders")
-        dest, baseSource, sourcesList, updateTime = self.reloadConf()
-        self.updateObservers(dest, baseSource, sourcesList)
+        commonDest, baseDest, baseSource, sourcesList, updateTime = self.reloadConf()
+        self.updateObservers(commonDest, baseDest, baseSource, sourcesList)
         self.t = Timer(updateTime, self.run)
         self.t.start()
         
