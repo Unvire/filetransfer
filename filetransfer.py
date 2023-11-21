@@ -58,15 +58,18 @@ class MyHandler(FileSystemEventHandler):
 
         logger.info(self.get_relative_path(sourceFile))
         commonDestinationPath = os.path.join(self.commonDestinationPath)
+        if commonDestinationPath:
+            try:
+                shutil.copy(sourceFile, commonDestinationPath)
+            except Exception as e:
+                print(f"Error copying file to {commonDestinationPath}: {e}")
         
         destinationPath = os.path.join(self.baseDesinationPath, self.get_relative_path(sourceFile))
-        os.makedirs(os.path.dirname(destinationPath), 0o777, True)
-
+        os.makedirs(os.path.dirname(destinationPath), 0o777, True)        
         try:
-            shutil.copy(sourceFile, commonDestinationPath)
             shutil.copy(sourceFile, destinationPath)
         except Exception as e:
-            print(f"Error copying file: {e}")
+            print(f"Error copying file to {destinationPath}: {e}")
 
 class WatchersThread:
     def __init__(self, configFile):
@@ -92,10 +95,6 @@ class WatchersThread:
                     sourcesList = config['sources']
                     updateTime = float(config['updateTime'])
 
-                    ## check if commonDest and baseSource exist
-                    if not os.path.isdir(commonDest):
-                        logger.error(f"commonDestination folder {commonDest} not found")
-                        sys.exit(1)
                     if not os.path.isdir(baseDest):
                         logger.error(f"Base folder {baseDest} not found")
                         sys.exit(1)
