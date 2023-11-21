@@ -2278,3 +2278,4 @@
 2023-11-21 10:46:06,929 INFO [filetransfer.py](59): ProcessedFiles\U62P-ICT-028\processed\804\2023-11-21\NEXY-M-main_325230603045804_21112023_104531.txt
 2023-11-21 10:46:06,946 INFO [filetransfer.py](40): File modified: ProcessedFiles\U62P-ICT-028\processed\804\2023-11-21\NEXY-M-main_325230603045804_21112023_104531.txt
 2023-11-21 10:46:06,947 INFO [filetransfer.py](59): ProcessedFiles\U62P-ICT-028\processed\804\2023-11-21\NEXY-M-main_325230603045804_21112023_104531.txt
+2023-11-21 10:46:11,846 INFO [filetransfer.py](89): Filetransfer.py stopped
