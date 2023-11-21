@@ -6,7 +6,7 @@ The purpose of this script is to monitor folders with log files from test machin
 Description of config's file(JSON)  keys:
  - enableFileTranfer: bool -> stopps script with false,
  - updateTime: int -> time that script waits between reloading the config file,
- - commonDest: str -> path that the files are copied to (all files to one folder),
+ - commonDest: str -> (optinal parameter) path that the files are copied to (all files to one folder); use empty string to disable this feature
  - baseDest: str -> common path for all copied files (basePath -> subfolders),
  - baseSource: str -> common subpath for all the monitored folders,
  - sources: list -> list of groups that are monitored.
