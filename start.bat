@@ -1,3 +1,3 @@
 python filetransfer.py filetransfer.conf
 
-pause
+pause 
