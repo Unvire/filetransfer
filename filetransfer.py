@@ -81,28 +81,27 @@ class WatchersThread:
     def reloadConf(self):
         try:
             with open(self.configFile, 'r') as f:
-                    config = json.load(f)                    
-                    enableFileTransfer = config['enableFileTranfer']
+                config = json.load(f)                    
+            enableFileTransfer = config['enableFileTranfer']
 
-                    # close script
-                    if not enableFileTransfer:
-                        logger.info('Filetransfer.py stopped')
-                        sys.exit(1)
+            # close script
+            if not enableFileTransfer:
+                logger.info('Filetransfer.py stopped')
+                sys.exit(1)
 
-                    commonDest = config['commonDest']
-                    baseDest = config['baseDest']
-                    baseSource = config['baseSource']
-                    sourcesList = config['sources']
-                    updateTime = float(config['updateTime'])
+            commonDest = config['commonDest']
+            baseDest = config['baseDest']
+            baseSource = config['baseSource']
+            sourcesList = config['sources']
+            updateTime = float(config['updateTime'])
 
-                    if not os.path.isdir(baseDest):
-                        logger.error(f"Base folder {baseDest} not found")
-                        sys.exit(1)
-                    if not os.path.isdir(baseSource):
-                        logger.error(f"Base folder {baseSource} not found")
-                        sys.exit(1)
+            if not os.path.isdir(baseDest):
+                logger.error(f"Base folder {baseDest} not found")
+                sys.exit(1)
+            if not os.path.isdir(baseSource):
+                logger.error(f"Base folder {baseSource} not found")
+                sys.exit(1)
                     
-
         ## handle errors in JSON file
         except json.decoder.JSONDecodeError as e:
             logger.error(f'Could not properly read JSON file: {e}')

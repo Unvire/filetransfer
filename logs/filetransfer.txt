@@ -2279,3 +2279,24 @@
 2023-11-21 10:46:06,946 INFO [filetransfer.py](40): File modified: ProcessedFiles\U62P-ICT-028\processed\804\2023-11-21\NEXY-M-main_325230603045804_21112023_104531.txt
 2023-11-21 10:46:06,947 INFO [filetransfer.py](59): ProcessedFiles\U62P-ICT-028\processed\804\2023-11-21\NEXY-M-main_325230603045804_21112023_104531.txt
 2023-11-21 10:46:11,846 INFO [filetransfer.py](89): Filetransfer.py stopped
+2023-11-21 15:51:56,466 INFO [filetransfer.py](196): Logger filetransfer created
+2023-11-21 15:51:56,614 WARNING [filetransfer.py](25): Started logging on station \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\\ProcessedFiles\U62P-ICT-028\processed\804\2023-11-21
+2023-11-21 15:51:56,619 WARNING [filetransfer.py](25): Started logging on station \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\\ProcessedFiles\U62P-ICT-027\processed\20633282\2023-11-21
+2023-11-21 15:51:56,624 WARNING [filetransfer.py](25): Started logging on station \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\\ProcessedFiles\U62P-ICT-068\processed\30101540\2023-11-21
+2023-11-21 15:51:56,627 WARNING [filetransfer.py](25): Started logging on station \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\\ProcessedFiles\U62P-ICT-064\processed\21420848\2023-11-21
+2023-11-21 15:52:02,156 INFO [filetransfer.py](36): File created: ProcessedFiles\U62P-ICT-028\processed\804\2023-11-21\NEXY-M-main_325230616015804_21112023_035151.txt
+2023-11-21 15:52:03,159 INFO [filetransfer.py](59): ProcessedFiles\U62P-ICT-028\processed\804\2023-11-21\NEXY-M-main_325230616015804_21112023_035151.txt
+2023-11-21 15:52:03,243 INFO [filetransfer.py](40): File modified: ProcessedFiles\U62P-ICT-028\processed\804\2023-11-21\NEXY-M-main_325230616015804_21112023_035151.txt
+2023-11-21 15:52:03,243 INFO [filetransfer.py](59): ProcessedFiles\U62P-ICT-028\processed\804\2023-11-21\NEXY-M-main_325230616015804_21112023_035151.txt
+2023-11-21 15:52:03,253 INFO [filetransfer.py](36): File created: ProcessedFiles\U62P-ICT-028\processed\804\2023-11-21\NEXY-M-main_325230616025804_21112023_035151.txt
+2023-11-21 15:52:04,257 INFO [filetransfer.py](59): ProcessedFiles\U62P-ICT-028\processed\804\2023-11-21\NEXY-M-main_325230616025804_21112023_035151.txt
+2023-11-21 15:52:04,291 INFO [filetransfer.py](40): File modified: ProcessedFiles\U62P-ICT-028\processed\804\2023-11-21\NEXY-M-main_325230616025804_21112023_035151.txt
+2023-11-21 15:52:04,294 INFO [filetransfer.py](59): ProcessedFiles\U62P-ICT-028\processed\804\2023-11-21\NEXY-M-main_325230616025804_21112023_035151.txt
+2023-11-21 15:52:04,302 INFO [filetransfer.py](36): File created: ProcessedFiles\U62P-ICT-028\processed\804\2023-11-21\NEXY-M-main_325230616035804_21112023_035151.txt
+2023-11-21 15:52:05,305 INFO [filetransfer.py](59): ProcessedFiles\U62P-ICT-028\processed\804\2023-11-21\NEXY-M-main_325230616035804_21112023_035151.txt
+2023-11-21 15:52:05,334 INFO [filetransfer.py](40): File modified: ProcessedFiles\U62P-ICT-028\processed\804\2023-11-21\NEXY-M-main_325230616035804_21112023_035151.txt
+2023-11-21 15:52:05,334 INFO [filetransfer.py](59): ProcessedFiles\U62P-ICT-028\processed\804\2023-11-21\NEXY-M-main_325230616035804_21112023_035151.txt
+2023-11-21 15:52:05,346 INFO [filetransfer.py](36): File created: ProcessedFiles\U62P-ICT-028\processed\804\2023-11-21\NEXY-M-main_325230616045804_21112023_035151.txt
+2023-11-21 15:52:06,349 INFO [filetransfer.py](59): ProcessedFiles\U62P-ICT-028\processed\804\2023-11-21\NEXY-M-main_325230616045804_21112023_035151.txt
+2023-11-21 15:52:06,377 INFO [filetransfer.py](40): File modified: ProcessedFiles\U62P-ICT-028\processed\804\2023-11-21\NEXY-M-main_325230616045804_21112023_035151.txt
+2023-11-21 15:52:06,377 INFO [filetransfer.py](59): ProcessedFiles\U62P-ICT-028\processed\804\2023-11-21\NEXY-M-main_325230616045804_21112023_035151.txt
