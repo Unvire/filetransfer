@@ -2300,3 +2300,15 @@
 2023-11-21 15:52:06,349 INFO [filetransfer.py](59): ProcessedFiles\U62P-ICT-028\processed\804\2023-11-21\NEXY-M-main_325230616045804_21112023_035151.txt
 2023-11-21 15:52:06,377 INFO [filetransfer.py](40): File modified: ProcessedFiles\U62P-ICT-028\processed\804\2023-11-21\NEXY-M-main_325230616045804_21112023_035151.txt
 2023-11-21 15:52:06,377 INFO [filetransfer.py](59): ProcessedFiles\U62P-ICT-028\processed\804\2023-11-21\NEXY-M-main_325230616045804_21112023_035151.txt
+2023-12-19 08:50:29,750 INFO [filetransfer.py](208): Logger filetransfer created
+2023-12-19 08:50:29,760 ERROR [filetransfer.py](119): Could not properly read JSON file: Expecting ',' delimiter: line 5 column 2 (char 84)
+2023-12-19 08:50:37,631 INFO [filetransfer.py](208): Logger filetransfer created
+2023-12-19 08:50:37,631 ERROR [filetransfer.py](119): Could not properly read JSON file: Expecting ',' delimiter: line 5 column 2 (char 84)
+2023-12-19 08:50:42,167 INFO [filetransfer.py](208): Logger filetransfer created
+2023-12-19 08:50:42,167 ERROR [filetransfer.py](119): Could not properly read JSON file: Expecting property name enclosed in double quotes: line 5 column 19 (char 102)
+2023-12-19 08:50:54,068 INFO [filetransfer.py](208): Logger filetransfer created
+2023-12-19 08:50:54,068 ERROR [filetransfer.py](119): Could not properly read JSON file: Expecting value: line 10 column 16 (char 289)
+2023-12-19 08:51:14,354 INFO [filetransfer.py](208): Logger filetransfer created
+2023-12-19 08:51:14,354 ERROR [filetransfer.py](119): Could not properly read JSON file: Expecting value: line 20 column 16 (char 584)
+2023-12-19 08:51:26,830 INFO [filetransfer.py](208): Logger filetransfer created
+2023-12-19 08:51:26,830 INFO [filetransfer.py](98): Filetransfer.py stopped
