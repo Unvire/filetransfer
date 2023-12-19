@@ -180,9 +180,10 @@ class WatchersThread:
                     MyHandlerEnableDelegate(enable)
            
     def run(self):
-        print("Check config file for for new folders")
         commonDest, baseDest, baseSource, sourcesList, updateTime = self.reloadConf()
-        self.updateObservers(commonDest, baseDest, baseSource, sourcesList)
+        if self.enableLogging:            
+            print("Check config file for for new folders")
+            self.updateObservers(commonDest, baseDest, baseSource, sourcesList)
         self.t = Timer(updateTime, self.run)
         self.t.start()
         
