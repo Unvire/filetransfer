@@ -76,6 +76,15 @@ class WatchersThread:
         self.t = None
         self.stations = {}
         self.configFile = configFile
+        self.enableLogging = False
+
+    def _enableLoggingSet(self, state):        
+        # setter for enabling logging
+        if state and not self.enableLogging:
+            logger.info('Logging on all stations enabled')
+        elif not state and self.enableLogging:
+            logger.info('Logging on all stations disabled')
+        self.enableLogging = state
 
     # Load config file and submit Watchers
     def reloadConf(self):
@@ -90,10 +99,13 @@ class WatchersThread:
                 sys.exit(1)
 
             commonDest = config['commonDest']
+            enableLogging = config['stopLoggingOnAllStations']
             baseDest = config['baseDest']
             baseSource = config['baseSource']
             sourcesList = config['sources']
             updateTime = float(config['updateTime'])
+
+            self._enableLoggingSet(enableLogging)
 
             if not os.path.isdir(baseDest):
                 logger.error(f"Base folder {baseDest} not found")
