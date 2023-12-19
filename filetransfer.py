@@ -82,10 +82,10 @@ class WatchersThread:
         try:
             with open(self.configFile, 'r') as f:
                 config = json.load(f)                    
-            enableFileTransfer = config['enableFileTranfer']
+            forceKill = config['forceKillScript']
 
             # close script
-            if not enableFileTransfer:
+            if not forceKill:
                 logger.info('Filetransfer.py stopped')
                 sys.exit(1)
 
