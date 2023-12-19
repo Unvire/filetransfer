@@ -2374,3 +2374,35 @@
 2023-12-19 08:55:58,096 ERROR [filetransfer.py](163): Folder \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\\ProcessedFiles\U62P-ICT-027\processed\20634331\2023-11-22 not found
 2023-12-19 08:55:58,098 ERROR [filetransfer.py](163): Folder \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\\ProcessedFiles\U62P-ICT-068\processed\30101540\2023-11-21 not found
 2023-12-19 08:55:58,100 ERROR [filetransfer.py](163): Folder \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\\ProcessedFiles\U62P-ICT-064\processed\21420848\2023-11-21 not found
+2023-12-19 08:56:03,104 INFO [filetransfer.py](86): Logging on all stations disabled
+2023-12-19 08:56:53,197 INFO [filetransfer.py](84): Logging on all stations enabled
+2023-12-19 08:56:53,197 ERROR [filetransfer.py](163): Folder \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\\ProcessedFiles\U62P-ICT-028\processed\804\2023-11-21 not found
+2023-12-19 08:56:53,206 ERROR [filetransfer.py](163): Folder \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\\ProcessedFiles\U62P-ICT-027\processed\20633282\2023-11-21 not found
+2023-12-19 08:56:53,209 ERROR [filetransfer.py](163): Folder \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\\ProcessedFiles\U62P-ICT-027\processed\20634331\2023-11-22 not found
+2023-12-19 08:56:53,211 ERROR [filetransfer.py](163): Folder \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\\ProcessedFiles\U62P-ICT-068\processed\30101540\2023-11-21 not found
+2023-12-19 08:56:53,213 ERROR [filetransfer.py](163): Folder \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\\ProcessedFiles\U62P-ICT-064\processed\21420848\2023-11-21 not found
+2023-12-19 08:56:58,218 ERROR [filetransfer.py](163): Folder \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\\ProcessedFiles\U62P-ICT-028\processed\804\2023-11-21 not found
+2023-12-19 08:56:58,218 ERROR [filetransfer.py](163): Folder \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\\ProcessedFiles\U62P-ICT-027\processed\20633282\2023-11-21 not found
+2023-12-19 08:56:58,229 ERROR [filetransfer.py](163): Folder \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\\ProcessedFiles\U62P-ICT-027\processed\20634331\2023-11-22 not found
+2023-12-19 08:56:58,229 ERROR [filetransfer.py](163): Folder \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\\ProcessedFiles\U62P-ICT-068\processed\30101540\2023-11-21 not found
+2023-12-19 08:56:58,229 ERROR [filetransfer.py](163): Folder \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\\ProcessedFiles\U62P-ICT-064\processed\21420848\2023-11-21 not found
+2023-12-19 08:57:03,248 ERROR [filetransfer.py](163): Folder \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\\ProcessedFiles\U62P-ICT-028\processed\804\2023-11-21 not found
+2023-12-19 08:57:03,250 ERROR [filetransfer.py](163): Folder \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\\ProcessedFiles\U62P-ICT-027\processed\20633282\2023-11-21 not found
+2023-12-19 08:57:03,252 ERROR [filetransfer.py](163): Folder \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\\ProcessedFiles\U62P-ICT-027\processed\20634331\2023-11-22 not found
+2023-12-19 08:57:03,254 ERROR [filetransfer.py](163): Folder \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\\ProcessedFiles\U62P-ICT-068\processed\30101540\2023-11-21 not found
+2023-12-19 08:57:03,256 ERROR [filetransfer.py](163): Folder \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\\ProcessedFiles\U62P-ICT-064\processed\21420848\2023-11-21 not found
+2023-12-19 08:57:08,273 ERROR [filetransfer.py](163): Folder \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\\ProcessedFiles\U62P-ICT-028\processed\804\2023-11-21 not found
+2023-12-19 08:57:08,274 ERROR [filetransfer.py](163): Folder \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\\ProcessedFiles\U62P-ICT-027\processed\20633282\2023-11-21 not found
+2023-12-19 08:57:08,277 ERROR [filetransfer.py](163): Folder \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\\ProcessedFiles\U62P-ICT-027\processed\20634331\2023-11-22 not found
+2023-12-19 08:57:08,278 ERROR [filetransfer.py](163): Folder \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\\ProcessedFiles\U62P-ICT-068\processed\30101540\2023-11-21 not found
+2023-12-19 08:57:08,279 ERROR [filetransfer.py](163): Folder \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\\ProcessedFiles\U62P-ICT-064\processed\21420848\2023-11-21 not found
+2023-12-19 08:57:13,283 ERROR [filetransfer.py](163): Folder \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\\ProcessedFiles\U62P-ICT-028\processed\804\2023-11-21 not found
+2023-12-19 08:57:13,283 ERROR [filetransfer.py](163): Folder \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\\ProcessedFiles\U62P-ICT-027\processed\20633282\2023-11-21 not found
+2023-12-19 08:57:13,283 ERROR [filetransfer.py](163): Folder \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\\ProcessedFiles\U62P-ICT-027\processed\20634331\2023-11-22 not found
+2023-12-19 08:57:13,283 ERROR [filetransfer.py](163): Folder \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\\ProcessedFiles\U62P-ICT-068\processed\30101540\2023-11-21 not found
+2023-12-19 08:57:13,294 ERROR [filetransfer.py](163): Folder \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\\ProcessedFiles\U62P-ICT-064\processed\21420848\2023-11-21 not found
+2023-12-19 08:57:18,299 ERROR [filetransfer.py](163): Folder \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\\ProcessedFiles\U62P-ICT-028\processed\804\2023-11-21 not found
+2023-12-19 08:57:18,299 ERROR [filetransfer.py](163): Folder \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\\ProcessedFiles\U62P-ICT-027\processed\20633282\2023-11-21 not found
+2023-12-19 08:57:18,310 ERROR [filetransfer.py](163): Folder \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\\ProcessedFiles\U62P-ICT-027\processed\20634331\2023-11-22 not found
+2023-12-19 08:57:18,310 ERROR [filetransfer.py](163): Folder \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\\ProcessedFiles\U62P-ICT-068\processed\30101540\2023-11-21 not found
+2023-12-19 08:57:18,310 ERROR [filetransfer.py](163): Folder \\psu62pcol3.production.bitron.group\COLLECTOR_FILES\\ProcessedFiles\U62P-ICT-064\processed\21420848\2023-11-21 not found
