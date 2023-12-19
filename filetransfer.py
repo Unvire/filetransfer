@@ -94,7 +94,7 @@ class WatchersThread:
             forceKill = config['forceKillScript']
 
             # close script
-            if not forceKill:
+            if forceKill:
                 logger.info('Filetransfer.py stopped')
                 sys.exit(1)
 
